@@ -10,8 +10,7 @@ categories:
   - themes
 series:
   - Themes Guide
-date: '2020-05-26'
-lastmod: '2020-05-26'
+ 
 featuredImage: images/hero-right.jpg
 draft: false
 ---

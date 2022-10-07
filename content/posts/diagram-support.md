@@ -1,5 +1,5 @@
 ---
-title: Diagram Support
+title: Publications 
 description:
 toc: true
 authors:
@@ -7,13 +7,14 @@ authors:
 tags:
 categories:
 series:
+url: 
 date: '2021-03-31T13:11:22+08:00'
 lastmod: '2021-03-31T13:11:22+08:00'
 featuredImage:
 draft: false
 ---
 
-Eureka supports the rendering of diagrams by using Mermaid.
+Eureka supports the rendering of diagrams by using Mermaid.[aaa](https://www.baidu.com/)
 
 <!--more-->
 
