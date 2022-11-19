@@ -52,6 +52,11 @@ My research interests include Adversarial Attacks & Robustness, Privacy-preservi
 
 See [Google Scholar](https://scholar.google.com/citations?user=C5mp_2kAAAAJ&hl=zh-CN) for details.
 
+ImageNet Pre-training also Transfers Non-robustness  
+_**Jiaming Zhang**, Jitao Sang, Qi Yi, Yunfan Yang, Huiwen Dong, Jian Yu_  
+AAAI 2023  [[PDF](https://arxiv.org/abs/2106.10989)]
+
+
 Towards Adversarial Attack on Vision-Language Pre-training Models  
 _**Jiaming Zhang**, Qi Yi, Jitao Sang_  
 ACM MM 2022  [[PDF](https://arxiv.org/abs/2206.09391)]  [[Code](https://github.com/adversarial-for-goodness/Co-Attack)]
