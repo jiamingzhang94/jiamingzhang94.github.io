@@ -80,4 +80,4 @@ ACM MM 2020  [[PDF](https://arxiv.org/abs/2007.12861)]  [[Code](https://github.c
 
 ## Competitions 
 
-- The first place (81 in total) in [Face Recognition Security Competition, AISC 2022](https://compete.zgc-aisc.com/activity/3/format).
+- The first place (178 in total) in [Face Recognition Security Competition, AISC 2022](https://compete.zgc-aisc.com/activity/3/format).
