@@ -46,7 +46,7 @@ widget:
 
 
 Jiaming Zhang is currently a 3rd-year PhD candidate at the [ADaM Lab](https://adam-bjtu.org/#/english) of School of computer and information technology, Beijing Jiaotong University, advised by Prof. Jitao Sang.
-My research interests include Adversarial Attacks & Robustness, Privacy-preserving, Trustworthy AI. I will join the [ReLER lab](http://reler.net/), University of Technology Sydney, as a visiting student at the end of this year.
+My research interests include Adversarial Attacks & Robustness, Privacy-preserving, Trustworthy AI.
 
 ## Publications 
 
