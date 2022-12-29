@@ -54,7 +54,7 @@ See [Google Scholar](https://scholar.google.com/citations?user=C5mp_2kAAAAJ&hl=z
 
 ImageNet Pre-training also Transfers Non-robustness  
 _**Jiaming Zhang**, Jitao Sang, Qi Yi, Yunfan Yang, Huiwen Dong, Jian Yu_  
-AAAI 2023  [[PDF](https://arxiv.org/abs/2106.10989)]
+AAAI 2023  [[PDF](https://arxiv.org/abs/2106.10989)]  [[Code](https://github.com/jiamingzhang94/ImageNet-Pretraining-transfers-non-robustness)]
 
 
 Towards Adversarial Attack on Vision-Language Pre-training Models  
