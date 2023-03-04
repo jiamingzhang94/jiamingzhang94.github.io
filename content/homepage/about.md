@@ -52,6 +52,12 @@ My research interests include Adversarial Attacks & Robustness, Privacy-preservi
 
 See [Google Scholar](https://scholar.google.com/citations?user=C5mp_2kAAAAJ&hl=zh-CN) for details.
 
+
+Unlearnable Clusters: Towards Label-agnostic Unlearnable Examples  
+_**Jiaming Zhang**, Xingjun Ma, Qi Yi, Jitao Sang, Yugang Jiang, Yaowei Wang, Changsheng Xu_  
+CVPR 2023  [[PDF](https://arxiv.org/abs/2301.01217)]  [[Code](https://github.com/jiamingzhang94/Unlearnable-Clusters)]
+
+
 ImageNet Pre-training also Transfers Non-robustness  
 _**Jiaming Zhang**, Jitao Sang, Qi Yi, Yunfan Yang, Huiwen Dong, Jian Yu_  
 AAAI 2023  [[PDF](https://arxiv.org/abs/2106.10989)]  [[Code](https://github.com/jiamingzhang94/ImageNet-Pretraining-transfers-non-robustness)]
