@@ -45,7 +45,7 @@ widget:
 ---
 
 
-Jiaming Zhang is currently a postdoc at The Hong Kong University of Science and Technology, advised by [Prof. Dit-Yan Yeung](https://sites.google.com/view/dyyeung). Before that, I received my PhD from Beijing Jiaotong University, advised by [Prof. Jitao Sang](http://faculty.bjtu.edu.cn/9129/). 
+I am currently a postdoc at The Hong Kong University of Science and Technology, advised by [Prof. Dit-Yan Yeung](https://sites.google.com/view/dyyeung). Before that, I received my PhD from Beijing Jiaotong University, advised by [Prof. Jitao Sang](http://faculty.bjtu.edu.cn/9129/). 
 My research interests include **Trustworthy AI (Adversarial Attacks & Robustness, Privacy-preserving)**, especially in VLMs and AIGC models.
 
 ## Publications 
