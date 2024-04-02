@@ -45,8 +45,8 @@ widget:
 ---
 
 
-Jiaming Zhang is currently a 4th-year PhD candidate at the [ADaM Lab](https://adam-bjtu.org/#/english) of School of computer and information technology, Beijing Jiaotong University, advised by Prof. Jitao Sang.
-My research interests include Adversarial Attacks & Robustness, Privacy-preserving, Trustworthy AI. Expected graduation in January 2024.
+Jiaming Zhang is currently a postdoc at The Hong Kong University of Science and Technology, advised by [Prof. Dit-Yan Yeung](https://sites.google.com/view/dyyeung). Before that, I received my PhD from Beijing Jiaotong University, advised by [Prof. Jitao Sang](http://faculty.bjtu.edu.cn/9129/)
+My research interests include **Trustworthy AI (Adversarial Attacks & Robustness, Privacy-preserving)**, especially in VLMs and AIGC models.
 
 ## Publications 
 
