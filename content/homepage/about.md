@@ -1,7 +1,7 @@
 ---
 title: Jiaming Zhang (张家明)
 draft: false
-role: 4th-year PhD candidate
+role: Postdoctoral Research Associate
 
 # (avatar: images/icon.png)
 # bio: Aenean vel bibendum quam. Aliquam at mollis quam. Proin efficitur.
