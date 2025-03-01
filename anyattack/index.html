@@ -54,7 +54,7 @@
           <div class="is-size-5 publication-authors">
             <span class="author-block"><sup>1</sup>Hong Kong University of Science and Technology</span><br>
             <span class="author-block"><sup>2</sup>Beijing Jiaotong University</span><br>
-            <span class="author-block"><sup>3</sup>Fudan University</span>
+            <span class="author-block"><sup>3</sup>Fudan University</span><br>
             <span class="author-block"><sup>4</sup>Singapore Management University</span>
           </div>
 
@@ -107,32 +107,50 @@
     </div>
   </div>
 </section>
-
 <!-- Abstract Section -->
 <section class="section">
   <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
+    <div class="columns is-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
+        <!-- TL;DR Section -->
+        <div class="box has-background-light">
+          <h3 class="title is-4 has-text-centered">TL;DR</h3>
+          <p class="has-text-centered">
+            We introduce <strong>AnyAttack</strong>, the first large-scale self-supervised framework that enables transforming <span class="has-text-danger"><strong>any</strong></span> image into an attack vector targeting <span class="has-text-danger"><strong>any</strong></span> desired output across <span class="has-text-danger"><strong>any</strong></span> Vision-Language Model.
+          </p>
+        </div>
+
+        <h2 class="title is-3 has-text-centered">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Due to their multimodal capabilities, Vision-Language Models (VLMs) have found numerous impactful applications in real-world scenarios. However, recent studies have revealed that VLMs are vulnerable to image-based adversarial attacks, particularly targeted adversarial images that manipulate the model to generate harmful content specified by the adversary.
+            Vision-Language Models (VLMs) have revolutionized multimodal AI applications, yet their vulnerability to adversarial manipulation presents significant security challenges. Traditional targeted attacks require predefined labels, severely limiting their scalability and real-world impact.
           </p>
           <p>
-            Current attack methods rely on predefined target labels to create targeted adversarial attacks, which limits their scalability and applicability for large-scale robustness evaluations. In this paper, we propose <strong>AnyAttack</strong>, a self-supervised framework that generates targeted adversarial images for VLMs without label supervision, allowing <strong>any</strong> image to serve as a target for the <strong>attack</strong>.
+            We introduce <strong>AnyAttack</strong>, a novel self-supervised framework that achieves unprecedented attack flexibility through large-scale foundation model training. By pre-training an adversarial noise generator on the LAION-400M dataset without label supervision, our approach enables transforming <strong>any</strong> benign image into an attack vector that can target <strong>any</strong> desired output across <strong>any</strong> VLM architecture.
           </p>
           <p>
-            Our framework employs the "pre-training and fine-tuning" paradigm, with the adversarial noise generator pre-trained on the large-scale LAION-400M dataset. This large-scale pre-training endows our method with powerful transferability across a wide range of VLMs.
+            Our comprehensive evaluation demonstrates AnyAttack's effectiveness across five open-source VLMs (CLIP, BLIP, BLIP2, InstructBLIP, MiniGPT-4) on diverse multimodal tasks including retrieval, classification, and image captioning. Most notably, AnyAttack successfully transfers to commercial systems (Google Gemini, Claude Sonnet, Microsoft Copilot, OpenAI GPT), revealing systemic vulnerabilities in the VLM ecosystem.
           </p>
           <p>
-            Extensive experiments on five mainstream open-source VLMs (CLIP, BLIP, BLIP2, InstructBLIP, and MiniGPT-4) across three multimodal tasks (image-text retrieval, multimodal classification, and image captioning) demonstrate the effectiveness of our attack. Additionally, we successfully transfer AnyAttack to multiple commercial VLMs, including Google Gemini, Claude Sonnet, Microsoft Copilot and OpenAI GPT. These results reveal an unprecedented risk to VLMs, highlighting the need for effective countermeasures.
+            This work establishes the first foundation model for adversarial attacks, fundamentally reshaping the threat landscape and highlighting the urgent need for robust defense mechanisms against this new class of scalable, transferable attacks.
           </p>
+        </div>
+
+        <!-- Key Contributions Section -->
+        <div class="box mt-5">
+          <h3 class="title is-4 has-text-centered">Key Contributions</h3>
+          <div class="content">
+            <ul>
+              <li><strong>Universal Attack Framework:</strong> First self-supervised method enabling any-to-any attack transferability across the VLM ecosystem</li>
+              <li><strong>Foundation Model Approach:</strong> Pioneer application of large-scale pre-training (LAION-400M) for adversarial learning</li>
+              <li><strong>Unprecedented Transferability:</strong> Demonstrated effectiveness across both open-source and commercial VLMs</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-
 <!-- Framework Overview Section -->
 <section class="section">
   <div class="container is-max-desktop">
