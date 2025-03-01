@@ -32,7 +32,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Anyattack: Towards large-scale self-supervised adversarial attacks on vision-language models</h1>
+          <h1 class="title is-1 publication-title">Anyattack: Towards Large-scale Self-supervised Adversarial Attacks on Vision-language Models</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="#">Jiaming Zhang</a><sup>1</sup>,</span>
@@ -107,6 +107,8 @@
     </div>
   </div>
 </section>
+
+
 <!-- Abstract Section -->
 <section class="section">
   <div class="container is-max-desktop">
@@ -116,7 +118,7 @@
         <div class="box has-background-light">
           <h3 class="title is-4 has-text-centered">TL;DR</h3>
           <p class="has-text-centered">
-            We introduce <strong>AnyAttack</strong>, the first large-scale self-supervised framework that enables transforming <span class="has-text-danger"><strong>any</strong></span> image into an attack vector targeting <span class="has-text-danger"><strong>any</strong></span> desired output across <span class="has-text-danger"><strong>any</strong></span> Vision-Language Model.
+            We developed <strong>AnyAttack</strong>, a framework that can turn ordinary images into targeted adversarial examples that fool Vision-Language Models. By pre-training on 400M images, our method can make a benign image (like a dog) trick VLMs into generating any specified output (like "this is violent content"), working across both open-source and commercial models.
           </p>
         </div>
 
@@ -126,7 +128,7 @@
             Vision-Language Models (VLMs) have revolutionized multimodal AI applications, yet their vulnerability to adversarial manipulation presents significant security challenges. Traditional targeted attacks require predefined labels, severely limiting their scalability and real-world impact.
           </p>
           <p>
-            We introduce <strong>AnyAttack</strong>, a novel self-supervised framework that achieves unprecedented attack flexibility through large-scale foundation model training. By pre-training an adversarial noise generator on the LAION-400M dataset without label supervision, our approach enables transforming <strong>any</strong> benign image into an attack vector that can target <strong>any</strong> desired output across <strong>any</strong> VLM architecture.
+            We introduce <strong>AnyAttack</strong>, a novel self-supervised framework that achieves unprecedented attack flexibility through large-scale foundation model training. By pre-training an adversarial noise generator on the LAION-400M dataset without label supervision, our approach enables transforming <strong>any</strong> benign image into an attack vector that can target <strong>any</strong> desired output across different VLM architecture.
           </p>
           <p>
             Our comprehensive evaluation demonstrates AnyAttack's effectiveness across five open-source VLMs (CLIP, BLIP, BLIP2, InstructBLIP, MiniGPT-4) on diverse multimodal tasks including retrieval, classification, and image captioning. Most notably, AnyAttack successfully transfers to commercial systems (Google Gemini, Claude Sonnet, Microsoft Copilot, OpenAI GPT), revealing systemic vulnerabilities in the VLM ecosystem.
@@ -135,22 +137,63 @@
             This work establishes the first foundation model for adversarial attacks, fundamentally reshaping the threat landscape and highlighting the urgent need for robust defense mechanisms against this new class of scalable, transferable attacks.
           </p>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <!-- Key Contributions Section -->
-        <div class="box mt-5">
-          <h3 class="title is-4 has-text-centered">Key Contributions</h3>
-          <div class="content">
-            <ul>
-              <li><strong>Universal Attack Framework:</strong> First self-supervised method enabling any-to-any attack transferability across the VLM ecosystem</li>
-              <li><strong>Foundation Model Approach:</strong> Pioneer application of large-scale pre-training (LAION-400M) for adversarial learning</li>
-              <li><strong>Unprecedented Transferability:</strong> Demonstrated effectiveness across both open-source and commercial VLMs</li>
-            </ul>
-          </div>
+
+<!-- Framework Overview Section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3 has-text-centered">Framework Overview</h2>
+
+        <!-- Framework Figure -->
+        <figure class="image mb-6">
+          <img src="./static/images/framework.png" alt="AnyAttack Framework Overview">
+          <figcaption class="has-text-centered mt-2">
+            Figure 1: Overview of the AnyAttack framework, illustrating both the self-supervised adversarial noise pre-training phase (top) and the self-supervised adversarial noise fine-tuning phase (bottom).
+          </figcaption>
+        </figure>
+
+        <div class="content has-text-justified">
+          <p>
+            Our proposed framework, <strong>AnyAttack</strong>, introduces a novel two-phase approach to generating targeted adversarial examples without label supervision:
+          </p>
+
+          <h3 class="title is-4 mt-5">Self-Supervised Adversarial Noise Pre-Training</h3>
+          <p>
+            In the pre-training phase, we leverage the large-scale LAION-400M dataset (𝒟<sub>p</sub>) to develop a universal understanding of adversarial patterns. We train a decoder network <em>F</em> to produce adversarial noise δ while using a frozen encoder <em>E</em> as the surrogate model:
+          </p>
+          <ol>
+            <li>Given a batch of images <em>x</em>, we extract their embeddings using the frozen image encoder <em>E</em></li>
+            <li>These normalized embeddings <strong>z</strong> are fed into the decoder <em>F</em>, which generates adversarial noise δ</li>
+            <li>To enhance generalization and computational efficiency, we introduce a <em>K</em>-augmentation strategy that creates multiple shuffled versions of the original images within each mini-batch</li>
+            <li>The adversarial noise is added to the shuffled original images to produce the adversarial examples</li>
+          </ol>
+
+          <h3 class="title is-4 mt-5">Self-Supervised Adversarial Noise Fine-Tuning</h3>
+          <p>
+            In the fine-tuning phase, we adapt the pre-trained decoder <em>F</em> to specific downstream tasks and datasets (𝒟<sub>f</sub>):
+          </p>
+          <ol>
+            <li>We use an unrelated random image <em>x<sub>r</sub></em> from an external dataset (𝒟<sub>e</sub>) as the clean image</li>
+            <li>The pre-trained decoder generates adversarial noise δ specific to the target task</li>
+            <li>By adding this noise to the clean image (<em>x<sub>r</sub> + δ</em>), we create adversarial examples that can effectively manipulate target VLMs</li>
+          </ol>
+
+          <p class="mt-4">
+            This two-phase approach enables AnyAttack to achieve unprecedented flexibility - any benign image can be transformed into an adversarial example capable of inducing any desired output from target VLMs. By pre-training on massive-scale data, our method develops transferable adversarial capabilities that generalize across models and tasks.
+          </p>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+
 <!-- Framework Overview Section -->
 <section class="section">
   <div class="container is-max-desktop">
