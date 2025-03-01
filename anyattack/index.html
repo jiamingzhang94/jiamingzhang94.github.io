@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Anyattack: Towards large-scale self-supervised adversarial attacks on vision-language models">
+  <meta name="keywords" content="Computer Vision, Deep Learning, Vision-Language Models, Adversarial Attack">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anyattack: Towards large-scale self-supervised adversarial attacks on vision-language models</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Anyattack: Towards large-scale self-supervised adversarial attacks on vision-language models</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="#">Jiaming Zhang</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="#">Junhong Ye</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="#">Xingjun Ma</a><sup>3</sup>,</span>
+            <span class="author-block">
+              <a href="#">Yige Li</a><sup>4</sup>,</span>
+            <span class="author-block">
+              <a href="#">Yunfan Yang</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="#">Jitao Sang</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="#">Dit-Yan Yeung</a><sup>1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Hong Kong University of Science and Technology</span><br>
+            <span class="author-block"><sup>2</sup>Beijing Jiaotong University</span><br>
+            <span class="author-block"><sup>3</sup>Fudan University</span>
+            <span class="author-block"><sup>4</sup>Singapore Management University</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- arXiv Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2410.05346"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/jiamingzhang94/AnyAttack"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+              <!-- Paper Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2410.05346"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- Model Link. -->
+              <span class="link-block">
+                <a href="https://gohkust-my.sharepoint.com/:u:/g/personal/jmzhang_ust_hk/EdoO5KyVBH1FhPVr1kSYWh0B61oR9MYN9_EYmrCFBKnLsQ?e=IfkDmh"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-cube"></i>
+                  </span>
+                  <span>Model</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Abstract Section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Due to their multimodal capabilities, Vision-Language Models (VLMs) have found numerous impactful applications in real-world scenarios. However, recent studies have revealed that VLMs are vulnerable to image-based adversarial attacks, particularly targeted adversarial images that manipulate the model to generate harmful content specified by the adversary.
+          </p>
+          <p>
+            Current attack methods rely on predefined target labels to create targeted adversarial attacks, which limits their scalability and applicability for large-scale robustness evaluations. In this paper, we propose <strong>AnyAttack</strong>, a self-supervised framework that generates targeted adversarial images for VLMs without label supervision, allowing <strong>any</strong> image to serve as a target for the <strong>attack</strong>.
+          </p>
+          <p>
+            Our framework employs the "pre-training and fine-tuning" paradigm, with the adversarial noise generator pre-trained on the large-scale LAION-400M dataset. This large-scale pre-training endows our method with powerful transferability across a wide range of VLMs.
+          </p>
+          <p>
+            Extensive experiments on five mainstream open-source VLMs (CLIP, BLIP, BLIP2, InstructBLIP, and MiniGPT-4) across three multimodal tasks (image-text retrieval, multimodal classification, and image captioning) demonstrate the effectiveness of our attack. Additionally, we successfully transfer AnyAttack to multiple commercial VLMs, including Google Gemini, Claude Sonnet, Microsoft Copilot and OpenAI GPT. These results reveal an unprecedented risk to VLMs, highlighting the need for effective countermeasures.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Framework Overview Section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Method Overview</h2>
+        <div class="content has-text-justified">
+          <img src="./static/images/framework.png" alt="Framework Overview"/>
+          <p>
+            [Brief description of your method and its key components. The figure above illustrates the overall architecture of our proposed approach.]
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Results Section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Results</h2>
+        
+        <!-- Results Carousel -->
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item">
+            <img src="./static/images/result1.png" alt="Result 1"/>
+            <h3 class="subtitle has-text-centered">
+              Result Description 1
+            </h3>
+          </div>
+          <div class="item">
+            <img src="./static/images/result2.png" alt="Result 2"/>
+            <h3 class="subtitle has-text-centered">
+              Result Description 2
+            </h3>
+          </div>
+          <div class="item">
+            <img src="./static/images/result3.png" alt="Result 3"/>
+            <h3 class="subtitle has-text-centered">
+              Result Description 3
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BibTeX Section -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{author2024title,
+    title={Your Paper Title},
+    author={Author, First and Author, Second and Author, Third},
+    journal={arXiv preprint arXiv:XXXX.XXXXX},
+    year={2024}
+}</code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        Website template from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
