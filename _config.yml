@@ -22,13 +22,6 @@ last_updated: false # set to true if you want to display last updated in the foo
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
-# -----------------------------------------------------------------------------
-# Footer
-# -----------------------------------------------------------------------------
-footer_fixed: true    # 你旧网页是 fixed-bottom，这里开启它
-footer_content: >     # 这里可以放你那个 mapmyvisitors 的代码
-  © 2025 Jiaming Zhang. Powered by <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
-  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=VAtlPDTmWZg5LNhxQiNGugG-iS-TTaZCiidSfPYO7uk&cl=ffffff&w=a"></script>
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -52,8 +45,17 @@ repo_trophies:
 # Layout
 # -----------------------------------------------------------------------------
 
+
+
 navbar_fixed: true
-footer_fixed: true
+# -----------------------------------------------------------------------------
+# Footer
+# -----------------------------------------------------------------------------
+footer_fixed: true    # 你旧网页是 fixed-bottom，这里开启它
+footer_content: >     # 这里可以放你那个 mapmyvisitors 的代码
+  © 2025 Jiaming Zhang. Powered by <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
+  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=VAtlPDTmWZg5LNhxQiNGugG-iS-TTaZCiidSfPYO7uk&cl=ffffff&w=a"></script>
+
 search_enabled: true
 socials_in_search: true
 posts_in_search: true
