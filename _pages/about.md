@@ -23,11 +23,12 @@ profile:
       </div>
     </div>
 
-# 🔴 重点：把这里全部设为 false，防止它们自动跑到最底下
 news: false
 selected_papers: false
 social: false
 ---
+
+<a id="about"></a>
 
 I am currently a Research Fellow at **Nanyang Technological University (NTU)**, working with [Prof. Wei Yang Bryan Lim](https://sites.google.com/view/wyb/home). Prior to this, I was a postdoc at **Hong Kong University of Science and Technology (HKUST)**, working with [Prof. Dit-Yan Yeung](https://sites.google.com/view/dyyeung). I received my Ph.D. from **Beijing Jiaotong University** under the supervision of [Prof. Jitao Sang](http://faculty.bjtu.edu.cn/9129/).
 
@@ -35,12 +36,14 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 
 ---
 
+<a id="news"></a>
 ## News
 
 {% include news.liquid limit=5 %}
 
 ---
 
+<a id="publications"></a>
 ## Selected Publications
 
 <div class="publications">
@@ -49,6 +52,7 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 
 ---
 
+<a id="honors"></a>
 ## Honors & Awards
 
 * ACM China Doctoral Dissertation Award Nominee (ACM中国优博奖提名奖 **Top 5 in China**)
@@ -60,6 +64,7 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 
 ---
 
+<a id="services"></a>
 ## Academic Services
 
 **Journal Reviewer**
