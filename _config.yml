@@ -2,14 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+title: Jiaming Zhang  # 浏览器标签页标题
+first_name: Jiaming
+last_name: Zhang
+email: lanzhang1107@gmail.com  # 你的邮箱
+description: Jiaming Zhang's academic homepage # 对应你旧网页的 description
+
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -23,6 +21,14 @@ baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
+
+# -----------------------------------------------------------------------------
+# Footer
+# -----------------------------------------------------------------------------
+footer_fixed: true    # 你旧网页是 fixed-bottom，这里开启它
+footer_content: >     # 这里可以放你那个 mapmyvisitors 的代码
+  © 2025 Jiaming Zhang. Powered by <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
+  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=VAtlPDTmWZg5LNhxQiNGugG-iS-TTaZCiidSfPYO7uk&cl=ffffff&w=a"></script>
 
 # -----------------------------------------------------------------------------
 # Theme
