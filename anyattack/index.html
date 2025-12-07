@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="AnyAttack: Towards large-scale self-supervised adversarial attacks on vision-language models">
+  <meta name="keywords" content="Computer Vision, Deep Learning, Vision-Language Models, Adversarial Attack">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AnyAttack: Towards large-scale self-supervised adversarial attacks on vision-language models</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">AnyAttack: Towards Large-scale Self-supervised Adversarial Attacks on Vision-language Models</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://jiamingzhang94.github.io/">Jiaming Zhang</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="#">Junhong Ye</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="http://xingjunma.com/">Xingjun Ma</a><sup>3</sup>,</span>
+            <span class="author-block">
+              <a href="#">Yige Li</a><sup>4</sup>,</span>
+            <span class="author-block">
+              <a href="#">Yunfan Yang</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="#">Yunhao Chen</a><sup>3</sup>,</span><br>
+            <span class="author-block">
+              <a href="https://adam-bjtu.org/">Jitao Sang</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="https://sites.google.com/view/dyyeung">Dit-Yan Yeung</a><sup>1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Hong Kong University of Science and Technology</span><br>
+            <span class="author-block"><sup>2</sup>Beijing Jiaotong University</span><br>
+            <span class="author-block"><sup>3</sup>Fudan University</span><br>
+            <span class="author-block"><sup>4</sup>Singapore Management University</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- arXiv Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2410.05346"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/jiamingzhang94/AnyAttack"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+              <!-- Paper Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2410.05346"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- Model Link. -->
+              <span class="link-block">
+                <a href="https://gohkust-my.sharepoint.com/:u:/g/personal/jmzhang_ust_hk/EdoO5KyVBH1FhPVr1kSYWh0B61oR9MYN9_EYmrCFBKnLsQ?e=IfkDmh"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-cube"></i>
+                  </span>
+                  <span>Model</span>
+                </a>
+              </span>
+              <!-- Hugging Face Link. -->
+              <span class="link-block">
+                <a href="https://huggingface.co/Jiaming94/anyattack"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-robot"></i>
+                  </span>
+                  <span>Hugging Face</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Abstract Section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <!-- TL;DR Section -->
+        <div class="box has-background-light">
+          <h3 class="title is-4 has-text-centered">TL;DR</h3>
+          <p class="has-text-centered">
+            We developed <strong>AnyAttack</strong>, a framework that can turn ordinary images into targeted adversarial examples that fool Vision-Language Models. By pre-training on LAION-400M dataset, our method can make a benign image (like a dog) trick VLMs into generating any specified output (like "this is violent content"), working across both open-source and commercial models.
+          </p>
+        </div>
+
+        <h2 class="title is-3 has-text-centered">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Vision-Language Models (VLMs) have revolutionized multimodal AI applications, yet their vulnerability to adversarial manipulation presents significant security challenges. Traditional targeted attacks require predefined labels, severely limiting their scalability and real-world impact.
+          </p>
+          <p>
+            We introduce <strong>AnyAttack</strong>, a novel self-supervised framework that achieves unprecedented attack flexibility through large-scale foundation model training. By pre-training an adversarial noise generator on the LAION-400M dataset without label supervision, our approach enables transforming <strong>any</strong> benign image into an attack vector that can target <strong>any</strong> desired output across different VLM architecture.
+          </p>
+          <p>
+            Our comprehensive evaluation demonstrates AnyAttack's effectiveness across five open-source VLMs (CLIP, BLIP, BLIP2, InstructBLIP, MiniGPT-4) on diverse multimodal tasks including retrieval, classification, and image captioning. Most notably, AnyAttack successfully transfers to commercial systems (Google Gemini, Claude Sonnet, Microsoft Copilot, OpenAI GPT), revealing systemic vulnerabilities in the VLM ecosystem.
+          </p>
+          <p>
+            This work establishes the first foundation model for adversarial attacks, fundamentally reshaping the threat landscape and highlighting the urgent need for robust defense mechanisms against this new class of scalable, transferable attacks.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Framework Overview Section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3 has-text-centered">Framework Overview</h2>
+
+        <!-- Framework Figure -->
+        <figure class="image mb-6">
+          <img src="./static/images/framework.png" alt="AnyAttack Framework Overview">
+          <figcaption class="has-text-centered mt-2">
+            Figure 1: Overview of the AnyAttack framework, illustrating both the self-supervised adversarial noise pre-training phase (top) and the self-supervised adversarial noise fine-tuning phase (bottom).
+          </figcaption>
+        </figure>
+
+        <div class="content has-text-justified">
+          <p>
+            Our proposed framework, <strong>AnyAttack</strong>, introduces a novel two-phase approach to generating targeted adversarial examples without label supervision:
+          </p>
+
+          <h3 class="title is-4 mt-5">Adversarial Noise Pre-Training</h3>
+          <p>
+            In the pre-training phase, we leverage the large-scale LAION-400M dataset (𝒟<sub>p</sub>) to develop a universal understanding of adversarial patterns. We train a decoder network <em>F</em> to produce adversarial noise δ while using a frozen encoder <em>E</em> as the surrogate model:
+          </p>
+          <ol>
+            <li>Given a batch of images <em>x</em>, we extract their embeddings using the frozen image encoder <em>E</em></li>
+            <li>These normalized embeddings <strong>z</strong> are fed into the decoder <em>F</em>, which generates adversarial noise δ</li>
+            <li>To enhance generalization and computational efficiency, we introduce a <em>K</em>-augmentation strategy that creates multiple shuffled versions of the original images within each mini-batch</li>
+            <li>The adversarial noise is added to the shuffled original images to produce the adversarial examples</li>
+          </ol>
+
+          <h3 class="title is-4 mt-5">Adversarial Noise Fine-Tuning</h3>
+          <p>
+            In the fine-tuning phase, we adapt the pre-trained decoder <em>F</em> to specific downstream tasks and datasets (𝒟<sub>f</sub>):
+          </p>
+          <ol>
+            <li>We use an unrelated random image <em>x<sub>r</sub></em> from an external dataset (𝒟<sub>e</sub>) as the clean image</li>
+            <li>The pre-trained decoder generates adversarial noise δ specific to the target task</li>
+            <li>By adding this noise to the clean image (<em>x<sub>r</sub> + δ</em>), we create adversarial examples that can effectively manipulate target VLMs</li>
+          </ol>
+
+          <p class="mt-4">
+            This two-phase approach enables AnyAttack to achieve unprecedented flexibility - any benign image can be transformed into an adversarial example capable of inducing any desired output from target VLMs. By pre-training on massive-scale data, our method develops transferable adversarial capabilities that generalize across models and tasks.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Experimental Results Section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3 has-text-centered">Experimental Results</h2>
+
+        <div class="content has-text-justified">
+          <p>
+            We evaluated AnyAttack across both open-source and commercial Vision-Language Models, demonstrating its unprecedented transferability and effectiveness.
+          </p>
+        </div>
+
+        <!-- Open-source VLMs Results -->
+        <h3 class="title is-4 has-text-centered mt-5">Results on Open-Source VLMs</h3>
+        <figure class="image mb-6">
+          <img src="./static/images/result2.svg" alt="Results on Open-Source VLMs">
+          <figcaption class="has-text-centered mt-2">
+            Figure 2: AnyAttack successfully manipulates five mainstream open-source VLMs (CLIP, BLIP, BLIP2, InstructBLIP, and MiniGPT-4) across three multimodal tasks, achieving high attack success rates while maintaining imperceptible perturbations.
+          </figcaption>
+        </figure>
+
+        <!-- Commercial VLMs Results -->
+        <h3 class="title is-4 has-text-centered mt-5">Results on Commercial VLMs</h3>
+        <figure class="image mb-6">
+          <img src="./static/images/result1.svg" alt="Results on Commercial VLMs">
+          <figcaption class="has-text-centered mt-2">
+            Figure 3: AnyAttack demonstrates remarkable transferability to commercial systems, successfully manipulating Google Gemini, Claude Sonnet, Microsoft Copilot, and OpenAI GPT using the same adversarial images.
+          </figcaption>
+        </figure>
+
+        <div class="content has-text-justified">
+          <p>
+            Our results reveal a systemic vulnerability across the entire VLM ecosystem. Despite being trained on different datasets with different architectures, both open-source and commercial models remain susceptible to our self-supervised attack approach. This highlights the urgent need for robust defense mechanisms against this new class of transferable adversarial attacks.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--&lt;!&ndash; Results Section &ndash;&gt;-->
+<!--<section class="section">-->
+<!--  <div class="container is-max-desktop">-->
+<!--    <div class="columns is-centered has-text-centered">-->
+<!--      <div class="column is-four-fifths">-->
+<!--        <h2 class="title is-3">Results</h2>-->
+<!--        -->
+<!--        &lt;!&ndash; Results Carousel &ndash;&gt;-->
+<!--        <div id="results-carousel" class="carousel results-carousel">-->
+<!--          <div class="item">-->
+<!--            <img src="./static/images/result1.png" alt="Result 1"/>-->
+<!--            <h3 class="subtitle has-text-centered">-->
+<!--              Result Description 1-->
+<!--            </h3>-->
+<!--          </div>-->
+<!--          <div class="item">-->
+<!--            <img src="./static/images/result2.png" alt="Result 2"/>-->
+<!--            <h3 class="subtitle has-text-centered">-->
+<!--              Result Description 2-->
+<!--            </h3>-->
+<!--          </div>-->
+<!--          <div class="item">-->
+<!--            <img src="./static/images/result3.png" alt="Result 3"/>-->
+<!--            <h3 class="subtitle has-text-centered">-->
+<!--              Result Description 3-->
+<!--            </h3>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
+
+<!-- Conclusion and Future Directions Section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3 has-text-centered">Conclusion and Future Directions</h2>
+
+        <div class="content has-text-justified">
+          <p>
+            AnyAttack demonstrates that self-supervised adversarial learning at scale creates a fundamentally new security challenge for Vision-Language Models, requiring urgent development of robust defenses against this class of transferable attacks.
+          </p>
+
+          <div class="box has-background-light mt-5">
+            <h3 class="title is-4 has-text-centered has-text-primary">Looking Forward</h3>
+            <p class="has-text-justified">
+              We have open-sourced our <strong>LAION-400M pre-trained adversarial image generator</strong>, which can produce targeted adversarial examples with just a single forward pass. This represents a significant efficiency improvement over traditional adversarial training methods that require costly gradient calculations.
+            </p>
+            <p class="has-text-justified has-text-primary-dark">
+              <strong>Most importantly, our pre-trained generator potentially offers a promising alternative to conventional adversarial training on large models.</strong> By generating diverse adversarial examples efficiently, this approach could enable more practical and scalable robustness enhancements for the next generation of multimodal AI systems.
+            </p>
+          </div>
+
+          <div class="mt-5 has-text-centered">
+            <a href="https://github.com/jiamingzhang94/AnyAttack" class="button is-primary is-medium">
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+              <span>Code and Pre-trained Models</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- BibTeX Section -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{zhang2025anyattack,
+    title={Anyattack: Towards Large-scale Self-supervised Adversarial Attacks on Vision-language Models},
+    author={Zhang, Jiaming and Ye, Junhong and Ma, Xingjun and Li, Yige and Yang, Yunfan and Yunhao, Chen and Sang, Jitao and Yeung, Dit-Yan},
+    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+    year={2025}
+}</code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        Website template from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
