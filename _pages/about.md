@@ -2,18 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: # 留空
+subtitle: 
 
 profile:
   align: left
-  image: # 留空，不填图片路径就不会显示照片
-  # image_circular: false 
+  image: 
+  image_circular: false 
   
-  # 这里只保留你的联系方式，作为纯文字侧边栏
   address: >
     <p>Postdoctoral Research Fellow<br>
     Nanyang Technological University</p>
-    
     <div class="social">
       <div class="contact-icons">
         <a href="mailto:lanzhang1107@gmail.com" title="email"><i class="fas fa-envelope"></i> Email</a> <br>
@@ -25,9 +23,10 @@ profile:
       </div>
     </div>
 
-news: true  # 开启新闻列表
-selected_papers: true # 开启精选论文
-social: false # 关闭底部社交栏
+# 🔴 重点：把这里全部设为 false，防止它们自动跑到最底下
+news: false
+selected_papers: false
+social: false
 ---
 
 I am currently a Research Fellow at **Nanyang Technological University (NTU)**, working with [Prof. Wei Yang Bryan Lim](https://sites.google.com/view/wyb/home). Prior to this, I was a postdoc at **Hong Kong University of Science and Technology (HKUST)**, working with [Prof. Dit-Yan Yeung](https://sites.google.com/view/dyyeung). I received my Ph.D. from **Beijing Jiaotong University** under the supervision of [Prof. Jitao Sang](http://faculty.bjtu.edu.cn/9129/).
@@ -36,7 +35,21 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 
 ---
 
-### Honors & Awards
+## News
+
+{% include news.liquid limit=5 %}
+
+---
+
+## Selected Publications
+
+<div class="publications">
+{% bibliography --group_by none --query @*[selected=true] %}
+</div>
+
+---
+
+## Honors & Awards
 
 * ACM China Doctoral Dissertation Award Nominee (ACM中国优博奖提名奖 **Top 5 in China**)
 * SIGMM China Doctoral Dissertation Award (ACM中国SIGMM优博奖)
@@ -47,7 +60,7 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 
 ---
 
-### Academic Services
+## Academic Services
 
 **Journal Reviewer**
 : TPAMI, TIP, TMLR, TCSVT, TIST, etc.
