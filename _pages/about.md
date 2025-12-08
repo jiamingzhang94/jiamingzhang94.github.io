@@ -21,36 +21,84 @@ I am currently a Research Fellow at **Nanyang Technological University (NTU)**, 
 
 My research focuses on **Trustworthy AI**, with particular interests in **adversarial robustness** and **privacy-preserving machine learning**. Recently, I have been exploring these topics in the context of **Multimodal Large Language Models (MLLMs)**.
 
+<span class='anchor' id='news'></span>
 # 🔥 News
 
 - *2025.03*: One paper is accepted by **ACL 2025 Findings**.
 - *2025.02*: Two papers are accepted by **CVPR 2025**.
 - *2025.01*: One paper is accepted by **IEEE TIFS 2025**.
 
+<span class='anchor' id='publications'></span>
 # 📝 Selected Publications
 
-- ``CVPR 2025`` [Anyattack: Towards Large-scale Self-supervised Adversarial Attacks on Vision-language Models](https://arxiv.org/abs/2410.05346), **Jiaming Zhang**, Junhong Ye, Xingjun Ma, Yige Li, Yunfan Yang, Yunhao Chen, Jitao Sang, Dit-Yan Yeung.
+<div style="margin-bottom: 20px;"></div>
 
-- ``CVPR 2025`` [TAPT: Test-Time Adversarial Prompt Tuning for Robust Inference in Vision-Language Models](https://arxiv.org/abs/2411.13136), Xin Wang, Kai Chen, **Jiaming Zhang**, Jingjing Chen, Xingjun Ma.
+**Anyattack: Towards Large-scale Self-supervised Adversarial Attacks on Vision-language Models**
+<br> **Jiaming Zhang**, Junhong Ye, Xingjun Ma, Yige Li, Yunfan Yang, Yunhao Chen, Jitao Sang, Dit-Yan Yeung
+<br> ``CVPR 2025`` &nbsp; <a href="https://arxiv.org/abs/2410.05346">[Paper]</a> &nbsp; <a href="https://github.com/jiamingzhang94/AnyAttack">[Code]</a> &nbsp; <a href="https://jiamingzhang94.github.io/anyattack/">[Website]</a>
 
-- ``ACL Findings 2025`` [Investigating and Enhancing Vision-Audio Capability in Omnimodal Large Language Models](https://arxiv.org/pdf/2503.00059), Rui Hu, Delai Qiu, Shuyu Wei, **Jiaming Zhang**, Yining Wang, Shengping Liu, Jitao Sang.
+<div style="margin-bottom: 15px;"></div>
 
-- ``IEEE TIFS 2025`` [MF-CLIP: Leveraging CLIP as Surrogate Models for No-box Adversarial Attacks](https://ieeexplore.ieee.org/abstract/document/11126893), **Jiaming Zhang**, Lingyu Qiu, Qi Yi, Yige Li, Jitao Sang, Changsheng Xu, Dit-Yan Yeung.
+**TAPT: Test-Time Adversarial Prompt Tuning for Robust Inference in Vision-Language Models**
+<br> Xin Wang, Kai Chen, **Jiaming Zhang**, Jingjing Chen, Xingjun Ma
+<br> ``CVPR 2025`` &nbsp; <a href="https://arxiv.org/abs/2411.13136">[Paper]</a>
 
-- ``ECCV 2024`` [Adversarial Prompt Tuning for Vision-Language Models](https://arxiv.org/abs/2311.11261), **Jiaming Zhang**, Xingjun Ma, Xin Wang, Lingyu Qiu, Jiaqi Wang, Yu-Gang Jiang, Jitao Sang.
+<div style="margin-bottom: 15px;"></div>
 
-- ``CVPR 2023`` [Unlearnable Clusters: Towards Label-agnostic Unlearnable Examples](https://arxiv.org/abs/2301.01217), **Jiaming Zhang**, Xingjun Ma, Qi Yi, Jitao Sang, Yu-Gang Jiang, Yaowei Wang, Changsheng Xu.
+**Investigating and Enhancing Vision-Audio Capability in Omnimodal Large Language Models**
+<br> Rui Hu, Delai Qiu, Shuyu Wei, **Jiaming Zhang**, Yining Wang, Shengping Liu, Jitao Sang
+<br> ``ACL Findings 2025`` &nbsp; <a href="https://arxiv.org/pdf/2503.00059">[Paper]</a>
 
-- ``AAAI 2023`` [ImageNet Pre-training also Transfers Non-robustness](https://arxiv.org/abs/2106.10989), **Jiaming Zhang**, Jitao Sang, Qi Yi, Yunfan Yang, Huiwen Dong, Jian Yu.
+<div style="margin-bottom: 15px;"></div>
 
-- ``ACM MM 2022`` [Towards Adversarial Attack on Vision-Language Pre-training Models](https://arxiv.org/abs/2206.09391), **Jiaming Zhang**, Qi Yi, Jitao Sang.
+**MF-CLIP: Leveraging CLIP as Surrogate Models for No-box Adversarial Attacks**
+<br> **Jiaming Zhang**, Lingyu Qiu, Qi Yi, Yige Li, Jitao Sang, Changsheng Xu, Dit-Yan Yeung
+<br> ``IEEE TIFS 2025`` &nbsp; <a href="https://ieeexplore.ieee.org/abstract/document/11126893">[Paper]</a> &nbsp; <a href="https://github.com/jiamingzhang94/MFCLIP">[Code]</a>
 
-- ``ACM MM 2022`` [Benign adversarial attack: Tricking algorithm for goodness](https://arxiv.org/abs/2107.11986), Jitao Sang, Xian Zhao, **Jiaming Zhang**, Zhiyu Lin.
+<div style="margin-bottom: 15px;"></div>
 
-- ``IEEE TMM 2021`` [Robust CAPTCHAs towards malicious OCR](https://ieeexplore.ieee.org/abstract/document/9158388), **Jiaming Zhang**, Jitao Sang, Kaiyuan Xu, Shangxi Wu, Xian Zhao, Yanfeng Sun, Yongli Hu, Jian Yu.
+**Adversarial Prompt Tuning for Vision-Language Models**
+<br> **Jiaming Zhang**, Xingjun Ma, Xin Wang, Lingyu Qiu, Jiaqi Wang, Yu-Gang Jiang, Jitao Sang
+<br> ``ECCV 2024`` &nbsp; <a href="https://arxiv.org/abs/2311.11261">[Paper]</a> &nbsp; <a href="https://github.com/jiamingzhang94/Adversarial-Prompt-Tuning">[Code]</a>
 
-- ``ACM MM 2020`` [Adversarial privacy-preserving filter](https://arxiv.org/abs/2007.12861), **Jiaming Zhang**, Jitao Sang, Xian Zhao, Xiaowen Huang, Yanfeng Sun, Yongli Hu.
+<div style="margin-bottom: 15px;"></div>
 
+**Unlearnable Clusters: Towards Label-agnostic Unlearnable Examples**
+<br> **Jiaming Zhang**, Xingjun Ma, Qi Yi, Jitao Sang, Yu-Gang Jiang, Yaowei Wang, Changsheng Xu
+<br> ``CVPR 2023`` &nbsp; <a href="https://arxiv.org/abs/2301.01217">[Paper]</a> &nbsp; <a href="https://github.com/jiamingzhang94/Unlearnable-Clusters">[Code]</a>
+
+<div style="margin-bottom: 15px;"></div>
+
+**ImageNet Pre-training also Transfers Non-robustness**
+<br> **Jiaming Zhang**, Jitao Sang, Qi Yi, Yunfan Yang, Huiwen Dong, Jian Yu
+<br> ``AAAI 2023`` &nbsp; <a href="https://arxiv.org/abs/2106.10989">[Paper]</a> &nbsp; <a href="https://github.com/jiamingzhang94/ImageNet-Pretraining-transfers-non-robustness">[Code]</a>
+
+<div style="margin-bottom: 15px;"></div>
+
+**Towards Adversarial Attack on Vision-Language Pre-training Models**
+<br> **Jiaming Zhang**, Qi Yi, Jitao Sang
+<br> ``ACM MM 2022`` &nbsp; <a href="https://arxiv.org/abs/2206.09391">[Paper]</a> &nbsp; <a href="https://github.com/adversarial-for-goodness/Co-Attack">[Code]</a>
+
+<div style="margin-bottom: 15px;"></div>
+
+**Benign adversarial attack: Tricking algorithm for goodness**
+<br> Jitao Sang, Xian Zhao, **Jiaming Zhang**, Zhiyu Lin
+<br> ``ACM MM 2022`` &nbsp; <a href="https://arxiv.org/abs/2107.11986">[Paper]</a>
+
+<div style="margin-bottom: 15px;"></div>
+
+**Robust CAPTCHAs towards malicious OCR**
+<br> **Jiaming Zhang**, Jitao Sang, Kaiyuan Xu, Shangxi Wu, Xian Zhao, Yanfeng Sun, Yongli Hu, Jian Yu
+<br> ``IEEE TMM 2021`` &nbsp; <a href="https://ieeexplore.ieee.org/abstract/document/9158388">[Paper]</a>
+
+<div style="margin-bottom: 15px;"></div>
+
+**Adversarial privacy-preserving filter**
+<br> **Jiaming Zhang**, Jitao Sang, Xian Zhao, Xiaowen Huang, Yanfeng Sun, Yongli Hu
+<br> ``ACM MM 2020`` &nbsp; <a href="https://arxiv.org/abs/2007.12861">[Paper]</a> &nbsp; <a href="https://github.com/adversarial-for-goodness/APF">[Code]</a>
+
+
+<span class='anchor' id='honors'></span>
 # 🥇 Honors and Awards
 
 - *2024*: ACM China Doctoral Dissertation Award Nominee (**Top 5 in China**)
@@ -59,6 +107,13 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 - *2022*: China PhD National Scholarship (博士研究生国家奖学金)
 - *2022*: **Rank #1** (1/178) in AISC 2022 Facial Recognition Security Track
 
+<span class='anchor' id='talks'></span>
+# 💬 Invited Talks
+
+- *Apr 2025*: **Trustworthy AI - Adversarial Attacks & Robustness**, Singapore.
+- *Oct 2021*: **Trustworthy Multimedia Analysis**, ACM MM 2021 Tutorial, Chengdu, China.
+
+<span class='anchor' id='services'></span>
 # 🌟 Academic Services
 
 - **Journal Reviewer:** TPAMI, TIP, TMLR, TCSVT, TIST

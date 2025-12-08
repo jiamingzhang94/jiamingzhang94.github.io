@@ -1,22 +1,19 @@
-# main links links
+# 顶部导航栏配置
 main:
-  - title: "About Me"
-    url: "/#about-me"
+  - title: "About"
+    url: /#about-me
 
   - title: "News"
-    url: "/#-news"
+    url: /#news
 
   - title: "Publications"
-    url: "/#-publications"
+    url: /#publications
 
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+  - title: "Honors"
+    url: /#honors
 
-  # - title: "Educations"
-  #   url: "/#-educations"
+  - title: "Talks"     # 新增的 Talk 环节
+    url: /#talks
 
-  # - title: "Invited Talks"
-  #   url: "/#-invited-talks"
-
-  - title: "Prospective Interns"
-    url: "/#-prospective-interns"
+  - title: "Services"
+    url: /#services
