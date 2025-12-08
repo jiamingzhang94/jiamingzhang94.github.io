@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a Research Fellow at **Nanyang Technological University (NTU)**, working with [Prof. Wei Yang Bryan Lim](https://sites.google.com/view/wyb/home). Prior to this, I was a postdoc at **Hong Kong University of Science and Technology (HKUST)**, working with [Prof. Dit-Yan Yeung](https://sites.google.com/view/dyyeung). I received my Ph.D. from **Beijing Jiaotong University (BJTU)** under the supervision of [Prof. Jitao Sang](http://faculty.bjtu.edu.cn/9129/).
+ Jiaming Zhang (张家明) is currently a Postdoctoral Research Fellow at **Nanyang Technological University (NTU)**, working with [Prof. Wei Yang Bryan Lim](https://sites.google.com/view/wyb/home). Prior to this, I was a postdoc at **Hong Kong University of Science and Technology (HKUST)**, working with [Prof. Dit-Yan Yeung](https://sites.google.com/view/dyyeung). I received my Ph.D. from **Beijing Jiaotong University (BJTU)** under the supervision of [Prof. Jitao Sang](http://faculty.bjtu.edu.cn/9129/).
 
 My research focuses on **Trustworthy AI**, with particular interests in **adversarial robustness** and **privacy-preserving machine learning**. Recently, I have been exploring these topics in the context of **Multimodal Large Language Models (MLLMs)**.
 
@@ -32,6 +32,7 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 <span class='anchor' id='news'></span>
 # 🔥 News
 
+- *2025.11*: Invited talk **"Security and Privacy on Modern MLLMs"** at Institute of Science Tokyo, Japan.
 - *2025.09*: Our survey paper **"Safety at Scale"** is published in **Foundations and Trends® in Privacy and Security**.
 - *2025.08*: One paper is accepted by **IEEE TIFS 2025**.
 - *2025.06*: I joined **NTU** as a Research Fellow.
