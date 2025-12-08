@@ -32,7 +32,7 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 <span class='anchor' id='news'></span>
 # 🔥 News
 
-- *2025.11*: Invited talk **"Security and Privacy on Modern MLLMs"** at Institute of Science Tokyo, Japan.
+- *2025.11*: I gave an invited talk on **"Security and Privacy on Modern MLLMs"** at Institute of Science Tokyo, Japan.
 - *2025.09*: Our survey paper **"Safety at Scale"** is published in **Foundations and Trends® in Privacy and Security**.
 - *2025.08*: One paper is accepted by **IEEE TIFS 2025**.
 - *2025.06*: I joined **NTU** as a Research Fellow.
