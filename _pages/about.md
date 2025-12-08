@@ -21,9 +21,13 @@ I am currently a Research Fellow at **Nanyang Technological University (NTU)**, 
 
 My research focuses on **Trustworthy AI**, with particular interests in **adversarial robustness** and **privacy-preserving machine learning**. Recently, I have been exploring these topics in the context of **Multimodal Large Language Models (MLLMs)**.
 
+We are actively seeking motivated PhD students to collaborate with Prof. Wei Yang Bryan Lim and myself through CSC, visiting positions, or pursuing a Ph.D. in the following research areas. If you are interested, please send your CV to [lanzhang1107@gmail.com](mailto:lanzhang1107@gmail.com) or directly contact [Prof. Lim](https://sites.google.com/view/wyb/contact).
+
 <span class='anchor' id='news'></span>
 # 🔥 News
 
+- *2025.09*: Our survey paper **"Safety at Scale"** is published in **Foundations and Trends® in Privacy and Security**.
+- *2025.06*: I joined **NTU** as a Research Fellow.
 - *2025.03*: One paper is accepted by **ACL 2025 Findings**.
 - *2025.02*: Two papers are accepted by **CVPR 2025**.
 - *2025.01*: One paper is accepted by **IEEE TIFS 2025**.
@@ -33,9 +37,15 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 
 <div style="margin-bottom: 20px;"></div>
 
+**Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety**
+<br> Xingjun Ma, Yifeng Gao, Yixu Wang, ... **Jiaming Zhang**, ... Tianwei Zhang
+<br> ``Foundations and Trends® in Privacy and Security 2025`` &nbsp; <a href="https://www.nowpublishers.com/article/Details/SEC-051">[Paper]</a> &nbsp; <a href="https://arxiv.org/abs/2502.05206">[ArXiv]</a>
+
+<div style="margin-bottom: 15px;"></div>
+
 **Anyattack: Towards Large-scale Self-supervised Adversarial Attacks on Vision-language Models**
 <br> **Jiaming Zhang**, Junhong Ye, Xingjun Ma, Yige Li, Yunfan Yang, Yunhao Chen, Jitao Sang, Dit-Yan Yeung
-<br> ``CVPR 2025`` &nbsp; <a href="https://arxiv.org/abs/2410.05346">[Paper]</a> &nbsp; <a href="https://github.com/jiamingzhang94/AnyAttack">[Code]</a> &nbsp; <a href="https://jiamingzhang94.github.io/anyattack/">[Website]</a>
+<br> ``CVPR 2025`` &nbsp; <a href="https://arxiv.org/abs/2410.05346">[Paper]</a> &nbsp; <a href="https://github.com/jiamingzhang94/AnyAttack">[Code]</a> &nbsp; <a href="https://jiamingzhang94.github.io/anyattack/">[Project Page]</a>
 
 <div style="margin-bottom: 15px;"></div>
 
@@ -110,7 +120,8 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 <span class='anchor' id='talks'></span>
 # 💬 Invited Talks
 
-- *Apr 2025*: **Trustworthy AI - Adversarial Attacks & Robustness**, Singapore.
+- *Nov 2025*: **Security and Privacy on Modern MLLMs**, Institute of Science Tokyo, Tokyo, Japan.
+- *Apr 2025*: **Trustworthy AI - Adversarial Attacks & Robustness**, Nanyang Technological University, Singapore.
 - *Oct 2021*: **Trustworthy Multimedia Analysis**, ACM MM 2021 Tutorial, Chengdu, China.
 
 <span class='anchor' id='services'></span>
