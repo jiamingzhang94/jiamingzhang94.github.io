@@ -7,9 +7,13 @@
 
 # Site Settings
 title                    : "Jiaming Zhang"
-description              : "Postdoctoral Research Fellow at Nanyang Technological University (NTU)"
+# 🔍 SEO 重点修改：描述里要包含你的全名、学校、研究方向
+description              : "Jiaming Zhang is a Postdoctoral Research Fellow at Nanyang Technological University (NTU), specializing in Trustworthy AI, Adversarial Robustness, and MLLMs."
 repository               : "jiamingzhang94/jiamingzhang94.github.io"
 google_scholar_stats_use_cdn : true
+
+# 🔍 SEO 关键词：这里列出别人可能会搜的词
+keywords: "Jiaming Zhang, 张家明, NTU, Nanyang Technological University, Trustworthy AI, Adversarial Attack, MLLM Safety, Computer Vision, Beijing Jiaotong University"
 
 # google analytics
 google_analytics_id      :
@@ -25,10 +29,10 @@ author:
   avatar           : "images/prof_pic.jpg"
   bio              : "Trustworthy AI, Adversarial Robustness, MLLMs"
   location         : "Singapore"
-  # employer       : "Nanyang Technological University"  <-- 已注释掉，防止侧边栏重复显示
   pubmed           :
-  googlescholar    : "https://scholar.google.com/citations?user=C5mp_2kAAAAJ&hl=zh-CN"
-  email            : "lanzhang1107@gmail.com"
+  googlescholar    : "https://scholar.google.com/citations?user=C5mp_2kAAAAJ&hl"
+  # 📧 已更新为 NTU 邮箱
+  email            : "jiaming.zhang@ntu.edu.sg"
   researchgate     :
   uri              :
   bitbucket        :

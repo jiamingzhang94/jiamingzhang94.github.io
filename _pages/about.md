@@ -24,19 +24,19 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 <div style="padding: 15px; border: 1px solid #e0e0e0; background-color: #f9f9f9; border-radius: 8px; margin-top: 20px; margin-bottom: 20px;">
   <span style="font-weight: bold; font-size: 1.1em;">🔥 Opening for Students</span>
   <br>
-  We are actively seeking self-motivated students to join our team. Opportunities are available for <strong>prospective PhD students</strong> (full-time), as well as <strong>current PhD students</strong> seeking <strong>visiting positions</strong> (including CSC-funded).
+  We are actively seeking self-motivated students to work closely with me on Trustworthy MLLMs and Agents, under the supervision of Prof. Wei Yang Bryan Lim. 
   <br><br>
-  If you are interested, please send your CV to <a href="mailto:lanzhang1107@gmail.com">lanzhang1107@gmail.com</a> or directly contact <a href="https://sites.google.com/view/wyb/contact">Prof. Lim</a>.
+  Opportunities are available for <strong>visiting students</strong> (including CSC-funded), or pursuing a Ph.D. in the following research areas. If you are interested, please drop me an email at <a href="mailto:jiaming.zhang@ntu.edu.sg">jiaming.zhang@ntu.edu.sg</a> or directly contact Prof. Wei Yang Bryan Lim.
 </div>
 
 <span class='anchor' id='news'></span>
 # 🔥 News
 
 - *2025.09*: Our survey paper **"Safety at Scale"** is published in **Foundations and Trends® in Privacy and Security**.
+- *2025.08*: One paper is accepted by **IEEE TIFS 2025**.
 - *2025.06*: I joined **NTU** as a Research Fellow.
 - *2025.03*: One paper is accepted by **ACL 2025 Findings**.
 - *2025.02*: Two papers are accepted by **CVPR 2025**.
-- *2025.01*: One paper is accepted by **IEEE TIFS 2025**.
 
 <span class='anchor' id='publications'></span>
 # 📝 Selected Publications
