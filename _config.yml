@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Jiaming Zhang"
 # 🔍 SEO 重点修改：描述里要包含你的全名、学校、研究方向
-description              : "Jiaming Zhang is a Postdoctoral Research Fellow at Nanyang Technological University (NTU), specializing in Trustworthy AI, Adversarial Robustness, and MLLMs."
+description              : "Postdoctoral Research Fellow at Nanyang Technological University (NTU)"
 repository               : "jiamingzhang94/jiamingzhang94.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -27,7 +27,7 @@ baidu_site_verification  :
 author:
   name             : "Jiaming Zhang"
   avatar           : "images/prof_pic.jpg"
-  bio              : "Trustworthy AI, Adversarial Robustness, MLLMs"
+  bio              : ""
   location         : "Singapore"
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=C5mp_2kAAAAJ&hl"

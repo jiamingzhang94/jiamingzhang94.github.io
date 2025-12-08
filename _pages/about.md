@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a Research Fellow at **Nanyang Technological University (NTU)**, working with [Prof. Wei Yang Bryan Lim](https://sites.google.com/view/wyb/home). Prior to this, I was a postdoc at **Hong Kong University of Science and Technology (HKUST)**, working with [Prof. Dit-Yan Yeung](https://sites.google.com/view/dyyeung). I received my Ph.D. from **Beijing Jiaotong University** under the supervision of [Prof. Jitao Sang](http://faculty.bjtu.edu.cn/9129/).
+I am currently a Research Fellow at **Nanyang Technological University (NTU)**, working with [Prof. Wei Yang Bryan Lim](https://sites.google.com/view/wyb/home). Prior to this, I was a postdoc at **Hong Kong University of Science and Technology (HKUST)**, working with [Prof. Dit-Yan Yeung](https://sites.google.com/view/dyyeung). I received my Ph.D. from **Beijing Jiaotong University (BJTU)** under the supervision of [Prof. Jitao Sang](http://faculty.bjtu.edu.cn/9129/).
 
 My research focuses on **Trustworthy AI**, with particular interests in **adversarial robustness** and **privacy-preserving machine learning**. Recently, I have been exploring these topics in the context of **Multimodal Large Language Models (MLLMs)**.
 
@@ -26,7 +26,7 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
   <br>
   We are actively seeking self-motivated students to work closely with me on Trustworthy MLLMs and Agents, under the supervision of Prof. Wei Yang Bryan Lim. 
   <br><br>
-  Opportunities are available for <strong>visiting students</strong> (including CSC-funded), or pursuing a Ph.D. in the following research areas. If you are interested, please drop me an email at <a href="mailto:jiaming.zhang@ntu.edu.sg">jiaming.zhang@ntu.edu.sg</a> or directly contact Prof. Wei Yang Bryan Lim.
+  Opportunities are available for <strong>visiting students</strong> (including CSC-funded), or pursuing a Ph.D. in the following research areas. If you are interested, please drop me an <a href="mailto:jiaming.zhang@ntu.edu.sg">email</a> or directly contact Prof. Wei Yang Bryan Lim.
 </div>
 
 <span class='anchor' id='news'></span>
@@ -44,7 +44,7 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 <div style="margin-bottom: 20px;"></div>
 
 **Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety**
-<br> Xingjun Ma, Yifeng Gao, Yixu Wang, ... <u><strong>Jiaming Zhang</strong></u>, ... Tianwei Zhang
+<br> Xingjun Ma, Yifeng Gao, Yixu Wang, ... <u><strong>Jiaming Zhang</strong></u>, ... Yu-Gang Jiang
 <br> ``Foundations and Trends® in Privacy and Security 2025`` &nbsp; <a href="https://www.nowpublishers.com/article/Details/SEC-051">[Paper]</a> &nbsp; <a href="https://arxiv.org/abs/2502.05206">[ArXiv]</a>
 
 <div style="margin-bottom: 15px;"></div>
@@ -88,6 +88,12 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 **ImageNet Pre-training also Transfers Non-robustness**
 <br> <u><strong>Jiaming Zhang</strong></u>, Jitao Sang, Qi Yi, Yunfan Yang, Huiwen Dong, Jian Yu
 <br> ``AAAI 2023`` &nbsp; <a href="https://arxiv.org/abs/2106.10989">[Paper]</a> &nbsp; <a href="https://github.com/jiamingzhang94/ImageNet-Pretraining-transfers-non-robustness">[Code]</a>
+
+<div style="margin-bottom: 15px;"></div>
+
+**Low-mid Adversarial Perturbation against Unauthorized Face Recognition System**
+<br> <u><strong>Jiaming Zhang</strong></u>, Qi Yi, Dongyuan Lu, Jitao Sang
+<br> ``Information Sciences 2023`` &nbsp; <a href="https://arxiv.org/pdf/2206.09410">[Paper]</a>
 
 <div style="margin-bottom: 15px;"></div>
 
