@@ -2,14 +2,21 @@
 <project version="4">
   <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
-      <paths name="dycpu5">
+      <paths name="ecs-user@8.209.232.186:22">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
-      <paths name="jmzhang@dycpu3.cse.ust.hk:22 password">
+      <paths name="xingjun">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="zhangjiaming@angel-gpu-ws01.dynip.ntu.edu.sg:22">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
