@@ -45,7 +45,7 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 <div style="margin-bottom: 20px;"></div>
 
 **Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety**
-<br> Xingjun Ma, Yifeng Gao, Yixu Wang, ... <u><strong>Jiaming Zhang</strong></u>, ... Yu-Gang Jiang
+<br> Xingjun Ma, Yifeng Gao, Yixu Wang, ... <u><strong>Jiaming Zhang</strong></u>, ..., Yu-Gang Jiang
 <br> ``Foundations and Trends® in Privacy and Security 2025`` &nbsp; <a href="https://www.nowpublishers.com/article/Details/SEC-051">[Paper]</a> &nbsp; <a href="https://arxiv.org/abs/2502.05206">[ArXiv]</a>
 
 <div style="margin-bottom: 15px;"></div>
