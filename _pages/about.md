@@ -34,7 +34,7 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 
 - *2025.11*: I gave an invited talk on **"Security and Privacy on Modern MLLMs"** at Institute of Science Tokyo, Japan.
 - *2025.09*: Our survey paper **"Safety at Scale"** is published in **Foundations and Trends® in Privacy and Security**.
-- *2025.08*: One paper is accepted by **IEEE TIFS 2025**.
+- *2025.08*: One paper is accepted by **TIFS 2025**.
 - *2025.06*: I joined **NTU** as a Research Fellow.
 - *2025.03*: One paper is accepted by **ACL 2025 Findings**.
 - *2025.02*: Two papers are accepted by **CVPR 2025**.
@@ -70,7 +70,7 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 
 **MF-CLIP: Leveraging CLIP as Surrogate Models for No-box Adversarial Attacks**
 <br> <u><strong>Jiaming Zhang</strong></u>, Lingyu Qiu, Qi Yi, Yige Li, Jitao Sang, Changsheng Xu, Dit-Yan Yeung
-<br> ``IEEE TIFS 2025`` &nbsp; <a href="https://ieeexplore.ieee.org/abstract/document/11126893">[Paper]</a> &nbsp; <a href="https://github.com/jiamingzhang94/MFCLIP">[Code]</a>
+<br> ``TIFS 2025`` &nbsp; <a href="https://ieeexplore.ieee.org/abstract/document/11126893">[Paper]</a> &nbsp; <a href="https://github.com/jiamingzhang94/MFCLIP">[Code]</a>
 
 <div style="margin-bottom: 15px;"></div>
 
@@ -112,7 +112,7 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 
 **Robust CAPTCHAs towards malicious OCR**
 <br> <u><strong>Jiaming Zhang</strong></u>, Jitao Sang, Kaiyuan Xu, Shangxi Wu, Xian Zhao, Yanfeng Sun, Yongli Hu, Jian Yu
-<br> ``IEEE TMM 2021`` &nbsp; <a href="https://ieeexplore.ieee.org/abstract/document/9158388">[Paper]</a>
+<br> ``TMM 2021`` &nbsp; <a href="https://ieeexplore.ieee.org/abstract/document/9158388">[Paper]</a>
 
 <div style="margin-bottom: 15px;"></div>
 
