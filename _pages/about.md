@@ -26,7 +26,7 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
   <br>
   We are actively seeking self-motivated students to work closely with me on Trustworthy MLLMs and Agents, under the supervision of Prof. Wei Yang Bryan Lim. 
   <br><br>
-  Opportunities are available for <strong>visiting students</strong> (including CSC-funded), or pursuing a Ph.D. in the following research areas. If you are interested, please drop me an <a href="mailto:jiaming.zhang@ntu.edu.sg">email</a> or directly contact Prof. Wei Yang Bryan Lim.
+  Opportunities are available for <strong>visiting students</strong> (including CSC-funded), or <strong>pursuing a Ph.D.<strong> in the following research areas. If you are interested, please drop me an <a href="mailto:jiaming.zhang@ntu.edu.sg">email</a> or directly contact Prof. Wei Yang Bryan Lim.
 </div>
 
 <span class='anchor' id='news'></span>

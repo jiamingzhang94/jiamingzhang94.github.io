@@ -25,8 +25,8 @@ baidu_site_verification  :
 
 # Site Author
 author:
-  name             : "Jiaming Zhang"
-  avatar           : "images/prof_pic.jpg"
+  name             : "Jiaming Zhang (张家明)"
+  avatar           : #"images/prof_pic.jpg"
   bio              : ""
   location         : "Singapore"
   pubmed           :
