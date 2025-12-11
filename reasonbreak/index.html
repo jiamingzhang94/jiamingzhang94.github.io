@@ -72,9 +72,10 @@
     .figure-caption {
       font-size: 0.95rem;
       color: #666;
-      text-align: center;
+      text-align: justify; /* Changed to justify for long caption */
       margin-top: 10px;
       margin-bottom: 10px;
+      line-height: 1.5;
     }
 
     .section-title {
@@ -103,13 +104,6 @@
     pre {
       background: none;
       padding: 0;
-    }
-
-    .method-description {
-      font-size: 1.05rem;
-      line-height: 1.6;
-      margin-top: 20px;
-      text-align: justify;
     }
 
   </style>
@@ -242,19 +236,15 @@
     <div class="columns is-centered">
       <div class="column is-10">
         <img src="static/images/framework.png" alt="ReasonBreak Framework" class="framework-img">
-        <p class="figure-caption">
-          <b>Figure 2:</b> The ReasonBreak Framework Overview.
-        </p>
-
-        <div class="content method-description">
-          <p>
-            <strong>Adaptive Decomposition:</strong> Systematically segments ultra-high-resolution images to isolate and preserve fine-grained geographic cues (e.g., signage, architectural details) that MLRMs exploit.
-          </p>
-          <p>
-            <strong>Minimax Target Selection:</strong> Identifies a "hard-negative prior" for each image block—an embedding maximally distant from the block's true geographic concepts—to guide the perturbation.
-          </p>
-          <p>
-            <strong>Concept-Aware Generation:</strong> A learnable decoder synthesizes perturbations that specifically invalidate the targeted reasoning steps, cascading errors through the model's chain-of-thought.
+        <div class="content has-text-justified">
+          <p class="figure-caption">
+            <b>Figure 2: The ReasonBreak Framework Overview.</b>
+            1) The input image undergoes Adaptive Decomposition into an <i>m<sup>*</sup> &times; n<sup>*</sup></i> grid of blocks.
+            2) Each block <i>B<sub>k</sub></i> is assigned a set of relevant concepts <i>C<sub>k</sub></i> via spatial overlap analysis.
+            3) The Minimax Target Selection uses the assigned concept set <i>C<sub>k</sub></i> and a pre-computed Embedding Bank <i>E</i> to find a hard-negative prior <i>e<sup>k</sup><sub>prior</sub></i>.
+            4) This prior is fed into the learnable Decoder <i>G<sub>&theta;</sub></i> to synthesize a block-specific perturbation <i>&delta;<sub>k</sub></i>.
+            5) The final adversarial image <i>I'</i> is reconstructed by adding the perturbations to their corresponding clean blocks.
+            The dashed boxes at the bottom illustrate the three possible outcomes of the concept assignment logic in step (2): a block may be assigned a single concept (left), multiple concepts (middle), or the default set of all image concepts if it has no spatial overlap (right).
           </p>
         </div>
       </div>
