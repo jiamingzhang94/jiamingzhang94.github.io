@@ -31,7 +31,7 @@
       font-family: 'Google Sans', sans-serif;
       font-weight: 700;
       color: #333;
-      font-size: 2.5rem; /* Adjusted for longer title */
+      font-size: 2.5rem;
       line-height: 1.2;
     }
 
@@ -103,6 +103,13 @@
     pre {
       background: none;
       padding: 0;
+    }
+
+    .method-description {
+      font-size: 1.05rem;
+      line-height: 1.6;
+      margin-top: 20px;
+      text-align: justify;
     }
 
   </style>
@@ -233,11 +240,23 @@
     </div>
 
     <div class="columns is-centered">
-      <div class="column is-10 has-text-centered">
+      <div class="column is-10">
         <img src="static/images/framework.png" alt="ReasonBreak Framework" class="framework-img">
         <p class="figure-caption">
-          <b>Figure 2:</b> The ReasonBreak Framework Overview. Our method employs Adaptive Decomposition to handle high-resolution inputs and Minimax Target Selection to generate concept-aware perturbations.
+          <b>Figure 2:</b> The ReasonBreak Framework Overview.
         </p>
+
+        <div class="content method-description">
+          <p>
+            <strong>Adaptive Decomposition:</strong> Systematically segments ultra-high-resolution images to isolate and preserve fine-grained geographic cues (e.g., signage, architectural details) that MLRMs exploit.
+          </p>
+          <p>
+            <strong>Minimax Target Selection:</strong> Identifies a "hard-negative prior" for each image block—an embedding maximally distant from the block's true geographic concepts—to guide the perturbation.
+          </p>
+          <p>
+            <strong>Concept-Aware Generation:</strong> A learnable decoder synthesizes perturbations that specifically invalidate the targeted reasoning steps, cascading errors through the model's chain-of-thought.
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -255,7 +274,7 @@
           </p>
         </div>
 
-        <img src="static/images/results.png" alt="Main Results Table" class="results-img">
+        <img src="static/images/results.png" alt="Main Results Table" class="results-img" style="width: 100%; border: 1px solid #ddd; border-radius: 5px;">
         <p class="figure-caption">
           <b>Table 1:</b> Privacy protection performance across geographical granularities on DoxBench.
         </p>
