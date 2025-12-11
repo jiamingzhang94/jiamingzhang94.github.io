@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="ReasonBreak: Disrupting Hierarchical Reasoning for Geographic Privacy Protection in Multimodal Reasoning Models">
+  <meta name="keywords" content="Adversarial Attack, Privacy Protection, Multimodal Large Reasoning Models, MLRM, Geographic Privacy">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ReasonBreak: Disrupting Hierarchical Reasoning</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: 'Noto Sans', sans-serif;
+      background-color: #ffffff;
+    }
+    h1.title {
+      font-family: 'Google Sans', sans-serif;
+      font-weight: 700;
+    }
+    .hero-body {
+      padding-bottom: 2rem;
+    }
+    .publication-title {
+      font-size: 2.8rem;
+      margin-bottom: 1rem;
+    }
+    .publication-authors {
+      font-family: 'Google Sans', sans-serif;
+      font-size: 1.3rem;
+      color: #363636;
+    }
+    .author-block {
+      display: inline-block;
+      margin-right: 15px;
+    }
+    .publication-venue {
+        font-weight: bold;
+        color: #555;
+        margin-top: 10px;
+        font-size: 1.2rem;
+    }
+    .link-block a {
+      margin: 5px;
+    }
+    .abstract-text {
+      text-align: justify;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    .teaser-img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    }
+    .results-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-size: 0.95rem;
+    }
+    .results-table th {
+      background-color: #f5f5f5;
+      border-top: 2px solid #333;
+      border-bottom: 1px solid #333;
+      padding: 10px;
+      text-align: center;
+    }
+    .results-table td {
+      border-bottom: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }
+    .results-table tr:last-child td {
+      border-bottom: 2px solid #333;
+    }
+    .results-table .highlight {
+      font-weight: bold;
+      background-color: #e8f5e9;
+    }
+    .bibtex-section {
+      background-color: #f5f5f5;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    pre {
+      background: none;
+      padding: 0;
+    }
+    .footer {
+        padding: 3rem 1.5rem 3rem;
+    }
+  </style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+
+          <h1 class="title is-1 publication-title">
+            ReasonBreak: Disrupting Hierarchical Reasoning
+          </h1>
+          <h3 class="subtitle is-3">
+            Adversarial Protection for Geographic Privacy in Multimodal Reasoning Models
+          </h3>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="#">Jiaming Zhang</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="#">Che Wang</a><sup>1,2</sup>,</span>
+            <span class="author-block">
+              <a href="#">Yang Cao</a><sup>3</sup>,</span>
+            <span class="author-block">
+              <a href="#">Longtao Huang</a><sup>4</sup>,</span>
+            <span class="author-block">
+              <a href="#">Wei Yang Bryan Lim</a><sup>1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-6 publication-authors">
+            <span class="author-block"><sup>1</sup>Nanyang Technological University,</span>
+            <span class="author-block"><sup>2</sup>Peking University,</span>
+            <span class="author-block"><sup>3</sup>Institute of Science Tokyo,</span>
+            <span class="author-block"><sup>4</sup>Alibaba Group</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2512.08503"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://github.com/jiamingzz94/ReasonBreak"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <span class="link-block">
+                <a href="https://huggingface.co/datasets/jiamingzz/geo_6k"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Dataset</span>
+                  </a>
+              </span>
+              <span class="link-block">
+                <a href="https://huggingface.co/jiamingzz/reason_break"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-share-nodes"></i>
+                  </span>
+                  <span>Model</span>
+                  </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <img src="./assets/teaser.png" alt="Teaser Image" class="teaser-img">
+        <h2 class="subtitle has-text-centered" style="margin-top: 15px; font-size: 0.9em; color: #666;">
+          <b>Figure 1:</b> ReasonBreak disrupts the hierarchical chain-of-thought reasoning of Multimodal Large Reasoning Models (MLRMs) by targeting specific visual concepts, preventing precise geolocation inference.
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3 has-text-centered">Abstract</h2>
+        <div class="content abstract-text">
+          <p>
+            Multi-modal large reasoning models (MLRMs) pose significant privacy risks by inferring precise geographic locations from personal images through hierarchical chain-of-thought reasoning. Existing privacy protection techniques, primarily designed for perception-based models, prove ineffective against MLRMs' sophisticated multi-step reasoning processes that analyze environmental cues.
+          </p>
+          <p>
+            We introduce <strong>ReasonBreak</strong>, a novel adversarial framework specifically designed to disrupt hierarchical reasoning in MLRMs through concept-aware perturbations. Our approach is founded on the key insight that effective disruption of geographic reasoning requires perturbations aligned with conceptual hierarchies rather than uniform noise. ReasonBreak strategically targets critical conceptual dependencies within reasoning chains, generating perturbations that invalidate specific inference steps and cascade through subsequent reasoning stages.
+          </p>
+          <p>
+            To facilitate this approach, we contribute <strong>GeoPrivacy-6K</strong>, a comprehensive dataset comprising 6,341 ultra-high-resolution images with hierarchical concept annotations. Extensive evaluation across seven state-of-the-art MLRMs (including GPT-o3, GPT-5, Gemini 2.5 Pro) demonstrates ReasonBreak's superior effectiveness, significantly outperforming existing baselines.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Methodology</h2>
+        <div class="content has-text-justified">
+          <p>
+            Our framework consists of three key stages:
+            <strong>(1) Adaptive Image Decomposition</strong> to isolate localized geographic cues;
+            <strong>(2) Minimax Target Selection</strong> to identify hard-negative priors that conceptually contradict the visual content; and
+            <strong>(3) Concept-Aware Perturbation Generation</strong> using a learnable decoder.
+          </p>
+        </div>
+        <img src="./assets/framework.png" alt="Method Framework" style="width: 100%; margin-top: 10px;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Main Results</h2>
+    <div class="content has-text-justified">
+      <p>
+        We evaluate ReasonBreak on the DoxBench dataset across seven SOTA MLRMs. The table below shows the Top-1 Privacy Protection Rate (PPR). Higher values indicate better protection.
+      </p>
+    </div>
+
+    <div class="columns is-centered">
+      <div class="column is-10">
+        <table class="results-table">
+          <thead>
+            <tr>
+              <th rowspan="2">Model</th>
+              <th rowspan="2">Attack</th>
+              <th colspan="4">Top-1 Protection Rate (%)</th>
+            </tr>
+            <tr>
+              <th>Region</th>
+              <th>Metro.</th>
+              <th>Tract</th>
+              <th>Block</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="2" style="vertical-align: middle;"><strong>GPT-o3</strong></td>
+              <td>AnyAttack</td>
+              <td>10.7</td>
+              <td>12.9</td>
+              <td>25.6</td>
+              <td>18.5</td>
+            </tr>
+            <tr class="highlight">
+              <td><strong>ReasonBreak</strong></td>
+              <td><strong>11.5</strong></td>
+              <td><strong>13.7</strong></td>
+              <td><strong>31.7</strong></td>
+              <td><strong>25.9</strong></td>
+            </tr>
+            <tr>
+                <td rowspan="2" style="vertical-align: middle;"><strong>GPT-5</strong></td>
+                <td>AnyAttack</td>
+                <td>6.5</td>
+                <td>9.8</td>
+                <td>20.0</td>
+                <td>29.0</td>
+              </tr>
+              <tr class="highlight">
+                <td><strong>ReasonBreak</strong></td>
+                <td><strong>8.0</strong></td>
+                <td><strong>9.8</strong></td>
+                <td><strong>32.9</strong></td>
+                <td><strong>29.0</strong></td>
+              </tr>
+            <tr>
+              <td rowspan="2" style="vertical-align: middle;"><strong>Gemini 2.5</strong></td>
+              <td>AnyAttack</td>
+              <td>3.2</td>
+              <td>8.9</td>
+              <td>15.9</td>
+              <td>0.0</td>
+            </tr>
+            <tr class="highlight">
+              <td><strong>ReasonBreak</strong></td>
+              <td><strong>6.9</strong></td>
+              <td><strong>10.6</strong></td>
+              <td><strong>30.8</strong></td>
+              <td><strong>23.3</strong></td>
+            </tr>
+            <tr>
+              <td rowspan="2" style="vertical-align: middle;"><strong>QVQ-Max</strong></td>
+              <td>AnyAttack</td>
+              <td>42.9</td>
+              <td>41.9</td>
+              <td>26.2</td>
+              <td>15.4</td>
+            </tr>
+            <tr class="highlight">
+              <td><strong>ReasonBreak</strong></td>
+              <td><strong>46.2</strong></td>
+              <td><strong>46.7</strong></td>
+              <td><strong>28.6</strong></td>
+              <td><strong>25.0</strong></td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="is-size-7 has-text-centered has-text-grey">
+          *Comparison of Privacy Protection Rates (PPR) under epsilon=16/255.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background-color: #fcfcfc;">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">GeoPrivacy-6K Dataset</h2>
+        <div class="content has-text-justified">
+          <p>
+            To facilitate research in reasoning-aware privacy protection, we contribute <strong>GeoPrivacy-6K</strong>, a dataset comprising 6,341 ultra-high-resolution images. Each image is annotated with hierarchical geographic concepts (from continental to local levels) and precise bounding boxes, specifically designed to train models to disrupt visual reasoning chains.
+          </p>
+        </div>
+        <div class="has-text-centered">
+            <a href="https://huggingface.co/datasets/jiamingzz/geo_6k" class="button is-dark is-rounded">
+                <span class="icon"><i class="far fa-images"></i></span>
+                <span>Access Dataset on HuggingFace</span>
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Citation</h2>
+    <div class="bibtex-section">
+      <pre><code>@article{zhang2025reasonbreak,
+  title={Disrupting Hierarchical Reasoning: Adversarial Protection for Geographic Privacy in Multimodal Reasoning Models},
+  author={Zhang, Jiaming and Wang, Che and Cao, Yang and Huang, Longtao and Lim, Wei Yang Bryan},
+  journal={arXiv preprint arXiv:2512.08503},
+  year={2025}
+}</code></pre>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        The template is borrowed from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
+      </p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
