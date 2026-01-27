@@ -32,6 +32,8 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 <span class='anchor' id='news'></span>
 # 🔥 News
 
+- *2026.01*: One paper is accepted by **ICLR 2026** (ReasonBreak).
+- *2026.01*: One paper is accepted by **TPAMI 2026** (NAP-Tuning).
 - *2025.11*: I gave an invited talk on **"Security and Privacy on Modern MLLMs"** at Institute of Science Tokyo, Japan.
 - *2025.09*: Our survey paper **"Safety at Scale"** is published in **Foundations and Trends® in Privacy and Security**.
 - *2025.08*: One paper is accepted by **TIFS 2025**.
@@ -43,6 +45,18 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 # 📝 Selected Publications
 
 <div style="margin-bottom: 20px;"></div>
+
+**Disrupting Hierarchical Reasoning: Adversarial Protection for Geographic Privacy in Multimodal Reasoning Models**
+<br> <u><strong>Jiaming Zhang</strong></u>, Che Wang, Yang Cao, Longtao Huang, Wei Yang Bryan Lim
+<br> ``ICLR 2026`` &nbsp; <a href="https://arxiv.org/abs/2512.08503">[Paper]</a> &nbsp; <a href="https://jiamingzhang94.github.io/reasonbreak/">[Project Page]</a> &nbsp; <a href="https://github.com/jiamingzhang94/reasonbreak">[Code]</a>
+
+<div style="margin-bottom: 15px;"></div>
+
+**NAP-Tuning: Neural Augmented Prompt Tuning for Adversarially Robust Vision-Language Models**
+<br> <u><strong>Jiaming Zhang</strong></u>, Xin Wang, Xingjun Ma, Lingyu Qiu, Yu-Gang Jiang, Jitao Sang
+<br> ``TPAMI 2026`` &nbsp; <a href="https://arxiv.org/abs/2506.12706">[Paper]</a> &nbsp; <a href="https://github.com/jiamingzhang94/nap-tuning">[Code]</a>
+
+<div style="margin-bottom: 15px;"></div>
 
 **Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety**
 <br> Xingjun Ma, Yifeng Gao, Yixu Wang, ... <u><strong>Jiaming Zhang</strong></u>, ..., Yu-Gang Jiang
