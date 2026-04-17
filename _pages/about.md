@@ -32,6 +32,7 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 <span class='anchor' id='news'></span>
 # 🔥 News
 
+- *2026.04*: One paper is accepted by **ACL Findings 2026**.
 - *2026.01*: One paper is accepted by **ICLR 2026**.
 - *2026.01*: One paper is accepted by **TPAMI 2026**.
 - *2025.11*: I gave an invited talk on **"Security and Privacy on Modern MLLMs"** at Institute of Science Tokyo, Japan.
@@ -49,6 +50,12 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 **Disrupting Hierarchical Reasoning: Adversarial Protection for Geographic Privacy in Multimodal Reasoning Models**
 <br> <u><strong>Jiaming Zhang</strong></u>, Che Wang, Yang Cao, Longtao Huang, Wei Yang Bryan Lim
 <br> ``ICLR 2026`` &nbsp; <a href="https://arxiv.org/abs/2512.08503">[Paper]</a> &nbsp; <a href="https://jiamingzhang94.github.io/reasonbreak/">[Project Page]</a> &nbsp; <a href="https://github.com/jiamingzhang94/reasonbreak">[Code]</a>
+
+<div style="margin-bottom: 15px;"></div>
+
+**GUITester: Enabling GUI Agents for Exploratory Defect Discovery**
+<br> Yifei Gao, Jiang Wu, Xiaoyi Chen, Yifan Yang, Zhe Cui, Tianyi Ma, <u><strong>Jiaming Zhang</strong></u>, Jitao Sang
+<br> ``ACL Findings 2026``
 
 <div style="margin-bottom: 15px;"></div>
 
