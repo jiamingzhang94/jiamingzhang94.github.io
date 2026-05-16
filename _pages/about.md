@@ -50,9 +50,7 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 <small style="color: #888;">* corresponding author</small>
 <div style="margin-bottom: 15px;"></div>
 
-### First-author & Corresponding Author Papers
-
-<div style="margin-bottom: 10px;"></div>
+<p style="color: #aaa; font-size: 0.82em; margin: 0 0 12px 0; letter-spacing: 0.04em;">FIRST &amp; CORRESPONDING AUTHOR</p>
 
 **XDomainBench: Diagnosing Reasoning Collapse in High-Dimensional Scientific Knowledge Composition**
 <br> Gong Zhiren, Tiantong Wu, <u><strong>Jiaming Zhang*</strong></u>, Fuyao Zhang, Che Wang, Yurong Hao, Yikun Hou, Foo Ping, Yilei Zhao, Fei Huang, Chau Yuen, Wei Yang Bryan Lim*
@@ -136,11 +134,8 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 <br> <u><strong>Jiaming Zhang</strong></u>, Jitao Sang, Xian Zhao, Xiaowen Huang, Yanfeng Sun, Yongli Hu
 <br> ``ACM MM 2020`` &nbsp; <a href="https://arxiv.org/abs/2007.12861">[Paper]</a> &nbsp; <a href="https://github.com/adversarial-for-goodness/APF">[Code]</a>
 
-<div style="margin-bottom: 25px;"></div>
-
-### Co-author Papers
-
-<div style="margin-bottom: 10px;"></div>
+<hr style="border: none; border-top: 1px solid #e0e0e0; margin: 28px 0 20px 0;">
+<p style="color: #aaa; font-size: 0.82em; margin: 0 0 12px 0; letter-spacing: 0.04em;">CO-AUTHOR</p>
 
 **VENOMREC: Cross-Modal Interactive Poisoning for Targeted Promotion in Multimodal LLM Recommender Systems**
 <br> Guowei Guan, Yurong Hao, <u><strong>Jiaming Zhang</strong></u>, Tiantong Wu, Fuyao Zhang, Tianxiang Chen, Longtao Huang, Cyril Leung, Wei Yang Bryan Lim
