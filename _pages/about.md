@@ -32,6 +32,7 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 <span class='anchor' id='news'></span>
 # 🔥 News
 
+- *2026.05*: Four papers are accepted by **ICML 2026**.
 - *2026.04*: One paper is accepted by **ACL Findings 2026**.
 - *2026.01*: One paper is accepted by **ICLR 2026**.
 - *2026.01*: One paper is accepted by **TPAMI 2026**.
@@ -46,6 +47,8 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 # 📝 Selected Publications
 
 <div style="margin-bottom: 20px;"></div>
+<small style="color: #888;">* corresponding author</small>
+<div style="margin-bottom: 10px;"></div>
 
 **Disrupting Hierarchical Reasoning: Adversarial Protection for Geographic Privacy in Multimodal Reasoning Models**
 <br> <u><strong>Jiaming Zhang</strong></u>, Che Wang, Yang Cao, Longtao Huang, Wei Yang Bryan Lim
@@ -62,6 +65,30 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 **NAP-Tuning: Neural Augmented Prompt Tuning for Adversarially Robust Vision-Language Models**
 <br> <u><strong>Jiaming Zhang</strong></u>, Xin Wang, Xingjun Ma, Lingyu Qiu, Yu-Gang Jiang, Jitao Sang
 <br> ``TPAMI 2026`` &nbsp; <a href="https://arxiv.org/abs/2506.12706">[Paper]</a> &nbsp; <a href="https://github.com/jiamingzhang94/nap-tuning">[Code]</a>
+
+<div style="margin-bottom: 15px;"></div>
+
+**XDomainBench: Diagnosing Reasoning Collapse in High-Dimensional Scientific Knowledge Composition**
+<br> Gong Zhiren, Tiantong Wu, <u><strong>Jiaming Zhang*</strong></u>, Fuyao Zhang, Che Wang, Yurong Hao, Yikun Hou, Foo Ping, Yilei Zhao, Fei Huang, Chau Yuen, Wei Yang Bryan Lim*
+<br> ``ICML 2026`` &nbsp; <a href="https://arxiv.org/abs/2605.14754">[Paper]</a>
+
+<div style="margin-bottom: 15px;"></div>
+
+**SubspacePath Pruner: Inference-time Pruning via Probe-based Representation&ndash;Parameter Coupling**
+<br> Gong Zhiren, Yikun Hou, Fan Wu, Che Wang, Fuyao Zhang, Tiantong Wu, Yurong Hao, <u><strong>Jiaming Zhang*</strong></u>, Yiyang Duan, Tiantong Wang, Fei Huang, Chau Yuen, Wei Yang Bryan Lim*
+<br> ``ICML 2026``
+
+<div style="margin-bottom: 15px;"></div>
+
+**MultiPriv: Benchmarking Individual-Level Privacy Reasoning in Vision-Language Models**
+<br> Xiongtao Sun, Hui Li*, <u><strong>Jiaming Zhang*</strong></u>, Yujie Yang, Kaili Liu, Ruxin Feng, Wen Jun Tan, Wei Yang Bryan Lim
+<br> ``ICML 2026`` &nbsp; <a href="https://arxiv.org/abs/2511.16940">[Paper]</a>
+
+<div style="margin-bottom: 15px;"></div>
+
+**VENOMREC: Cross-Modal Interactive Poisoning for Targeted Promotion in Multimodal LLM Recommender Systems**
+<br> Guowei Guan, Yurong Hao, <u><strong>Jiaming Zhang</strong></u>, Tiantong Wu, Fuyao Zhang, Tianxiang Chen, Longtao Huang, Cyril Leung, Wei Yang Bryan Lim
+<br> ``ICML 2026`` &nbsp; <a href="https://arxiv.org/abs/2602.06409">[Paper]</a>
 
 <div style="margin-bottom: 15px;"></div>
 
