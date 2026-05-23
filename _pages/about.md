@@ -50,7 +50,7 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 <small style="color: #888;">* corresponding author</small>
 <div style="margin-bottom: 15px;"></div>
 
-
+## 2026
 
 **XDomainBench: Diagnosing Reasoning Collapse in High-Dimensional Scientific Knowledge Composition**
 <br> Gong Zhiren, Tiantong Wu, <u><strong>Jiaming Zhang*</strong></u>, Fuyao Zhang, Che Wang, Yurong Hao, Yikun Hou, Foo Ping, Yilei Zhao, Fei Huang, Chau Yuen, Wei Yang Bryan Lim*
@@ -70,6 +70,18 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 
 <div style="margin-bottom: 15px;"></div>
 
+**VENOMREC: Cross-Modal Interactive Poisoning for Targeted Promotion in Multimodal LLM Recommender Systems**
+<br> Guowei Guan, Yurong Hao, <u><strong>Jiaming Zhang</strong></u>, Tiantong Wu, Fuyao Zhang, Tianxiang Chen, Longtao Huang, Cyril Leung, Wei Yang Bryan Lim
+<br> ``ICML 2026`` &nbsp; <a href="https://arxiv.org/abs/2602.06409">[Paper]</a>
+
+<div style="margin-bottom: 15px;"></div>
+
+**GUITester: Enabling GUI Agents for Exploratory Defect Discovery**
+<br> Yifei Gao, Jiang Wu, Xiaoyi Chen, Yifan Yang, Zhe Cui, Tianyi Ma, <u><strong>Jiaming Zhang</strong></u>, Jitao Sang
+<br> ``ACL Findings 2026``
+
+<div style="margin-bottom: 15px;"></div>
+
 **Disrupting Hierarchical Reasoning: Adversarial Protection for Geographic Privacy in Multimodal Reasoning Models**
 <br> <u><strong>Jiaming Zhang</strong></u>, Che Wang, Yang Cao, Longtao Huang, Wei Yang Bryan Lim
 <br> ``ICLR 2026`` &nbsp; <a href="https://arxiv.org/abs/2512.08503">[Paper]</a> &nbsp; <a href="https://jiamingzhang94.github.io/reasonbreak/">[Project Page]</a> &nbsp; <a href="https://github.com/jiamingzhang94/reasonbreak">[Code]</a>
@@ -79,6 +91,14 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 **NAP-Tuning: Neural Augmented Prompt Tuning for Adversarially Robust Vision-Language Models**
 <br> <u><strong>Jiaming Zhang</strong></u>, Xin Wang, Xingjun Ma, Lingyu Qiu, Yu-Gang Jiang, Jitao Sang
 <br> ``TPAMI 2026`` &nbsp; <a href="https://arxiv.org/abs/2506.12706">[Paper]</a> &nbsp; <a href="https://github.com/jiamingzhang94/nap-tuning">[Code]</a>
+
+<div style="margin-bottom: 15px;"></div>
+
+## 2025
+
+**Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety**
+<br> Xingjun Ma, Yifeng Gao, Yixu Wang, ... <u><strong>Jiaming Zhang</strong></u>, ..., Yu-Gang Jiang
+<br> ``Foundations and Trends® in Privacy and Security 2025`` &nbsp; <a href="https://www.nowpublishers.com/article/Details/SEC-051">[Paper]</a> &nbsp; <a href="https://arxiv.org/abs/2502.05206">[ArXiv]</a>
 
 <div style="margin-bottom: 15px;"></div>
 
@@ -94,11 +114,27 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 
 <div style="margin-bottom: 15px;"></div>
 
+**TAPT: Test-Time Adversarial Prompt Tuning for Robust Inference in Vision-Language Models**
+<br> Xin Wang, Kai Chen, <u><strong>Jiaming Zhang</strong></u>, Jingjing Chen, Xingjun Ma
+<br> ``CVPR 2025`` &nbsp; <a href="https://arxiv.org/abs/2411.13136">[Paper]</a>
+
+<div style="margin-bottom: 15px;"></div>
+
+**Investigating and Enhancing Vision-Audio Capability in Omnimodal Large Language Models**
+<br> Rui Hu, Delai Qiu, Shuyu Wei, <u><strong>Jiaming Zhang</strong></u>, Yining Wang, Shengping Liu, Jitao Sang
+<br> ``ACL Findings 2025`` &nbsp; <a href="https://arxiv.org/pdf/2503.00059">[Paper]</a>
+
+<div style="margin-bottom: 15px;"></div>
+
+## 2024
+
 **Adversarial Prompt Tuning for Vision-Language Models**
 <br> <u><strong>Jiaming Zhang</strong></u>, Xingjun Ma, Xin Wang, Lingyu Qiu, Jiaqi Wang, Yu-Gang Jiang, Jitao Sang
 <br> ``ECCV 2024`` &nbsp; <a href="https://arxiv.org/abs/2311.11261">[Paper]</a> &nbsp; <a href="https://github.com/jiamingzhang94/Adversarial-Prompt-Tuning">[Code]</a>
 
 <div style="margin-bottom: 15px;"></div>
+
+## 2023
 
 **Unlearnable Clusters: Towards Label-agnostic Unlearnable Examples**
 <br> <u><strong>Jiaming Zhang</strong></u>, Xingjun Ma, Qi Yi, Jitao Sang, Yu-Gang Jiang, Yaowei Wang, Changsheng Xu
@@ -118,51 +154,11 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 
 <div style="margin-bottom: 15px;"></div>
 
+## 2022
+
 **Towards Adversarial Attack on Vision-Language Pre-training Models**
 <br> <u><strong>Jiaming Zhang</strong></u>, Qi Yi, Jitao Sang
 <br> ``ACM MM 2022`` &nbsp; <a href="https://arxiv.org/abs/2206.09391">[Paper]</a> &nbsp; <a href="https://github.com/adversarial-for-goodness/Co-Attack">[Code]</a>
-
-<div style="margin-bottom: 15px;"></div>
-
-**Robust CAPTCHAs towards malicious OCR**
-<br> <u><strong>Jiaming Zhang</strong></u>, Jitao Sang, Kaiyuan Xu, Shangxi Wu, Xian Zhao, Yanfeng Sun, Yongli Hu, Jian Yu
-<br> ``TMM 2021`` &nbsp; <a href="https://ieeexplore.ieee.org/abstract/document/9158388">[Paper]</a>
-
-<div style="margin-bottom: 15px;"></div>
-
-**Adversarial privacy-preserving filter**
-<br> <u><strong>Jiaming Zhang</strong></u>, Jitao Sang, Xian Zhao, Xiaowen Huang, Yanfeng Sun, Yongli Hu
-<br> ``ACM MM 2020`` &nbsp; <a href="https://arxiv.org/abs/2007.12861">[Paper]</a> &nbsp; <a href="https://github.com/adversarial-for-goodness/APF">[Code]</a>
-
-<hr style="border: none; border-top: 1px solid #e0e0e0; margin: 28px 0 20px 0;">
-
-**VENOMREC: Cross-Modal Interactive Poisoning for Targeted Promotion in Multimodal LLM Recommender Systems**
-<br> Guowei Guan, Yurong Hao, <u><strong>Jiaming Zhang</strong></u>, Tiantong Wu, Fuyao Zhang, Tianxiang Chen, Longtao Huang, Cyril Leung, Wei Yang Bryan Lim
-<br> ``ICML 2026`` &nbsp; <a href="https://arxiv.org/abs/2602.06409">[Paper]</a>
-
-<div style="margin-bottom: 15px;"></div>
-
-**GUITester: Enabling GUI Agents for Exploratory Defect Discovery**
-<br> Yifei Gao, Jiang Wu, Xiaoyi Chen, Yifan Yang, Zhe Cui, Tianyi Ma, <u><strong>Jiaming Zhang</strong></u>, Jitao Sang
-<br> ``ACL Findings 2026``
-
-<div style="margin-bottom: 15px;"></div>
-
-**Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety**
-<br> Xingjun Ma, Yifeng Gao, Yixu Wang, ... <u><strong>Jiaming Zhang</strong></u>, ..., Yu-Gang Jiang
-<br> ``Foundations and Trends® in Privacy and Security 2025`` &nbsp; <a href="https://www.nowpublishers.com/article/Details/SEC-051">[Paper]</a> &nbsp; <a href="https://arxiv.org/abs/2502.05206">[ArXiv]</a>
-
-<div style="margin-bottom: 15px;"></div>
-
-**TAPT: Test-Time Adversarial Prompt Tuning for Robust Inference in Vision-Language Models**
-<br> Xin Wang, Kai Chen, <u><strong>Jiaming Zhang</strong></u>, Jingjing Chen, Xingjun Ma
-<br> ``CVPR 2025`` &nbsp; <a href="https://arxiv.org/abs/2411.13136">[Paper]</a>
-
-<div style="margin-bottom: 15px;"></div>
-
-**Investigating and Enhancing Vision-Audio Capability in Omnimodal Large Language Models**
-<br> Rui Hu, Delai Qiu, Shuyu Wei, <u><strong>Jiaming Zhang</strong></u>, Yining Wang, Shengping Liu, Jitao Sang
-<br> ``ACL Findings 2025`` &nbsp; <a href="https://arxiv.org/pdf/2503.00059">[Paper]</a>
 
 <div style="margin-bottom: 15px;"></div>
 
@@ -170,6 +166,21 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 <br> Jitao Sang, Xian Zhao, <u><strong>Jiaming Zhang</strong></u>, Zhiyu Lin
 <br> ``ACM MM 2022`` &nbsp; <a href="https://arxiv.org/abs/2107.11986">[Paper]</a>
 
+<div style="margin-bottom: 15px;"></div>
+
+## 2021
+
+**Robust CAPTCHAs towards malicious OCR**
+<br> <u><strong>Jiaming Zhang</strong></u>, Jitao Sang, Kaiyuan Xu, Shangxi Wu, Xian Zhao, Yanfeng Sun, Yongli Hu, Jian Yu
+<br> ``TMM 2021`` &nbsp; <a href="https://ieeexplore.ieee.org/abstract/document/9158388">[Paper]</a>
+
+<div style="margin-bottom: 15px;"></div>
+
+## 2020
+
+**Adversarial privacy-preserving filter**
+<br> <u><strong>Jiaming Zhang</strong></u>, Jitao Sang, Xian Zhao, Xiaowen Huang, Yanfeng Sun, Yongli Hu
+<br> ``ACM MM 2020`` &nbsp; <a href="https://arxiv.org/abs/2007.12861">[Paper]</a> &nbsp; <a href="https://github.com/adversarial-for-goodness/APF">[Code]</a>
 
 <span class='anchor' id='honors'></span>
 # 🥇 Honors and Awards
