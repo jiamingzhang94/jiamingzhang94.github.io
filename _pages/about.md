@@ -85,7 +85,7 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 
 **GUITester: Enabling GUI Agents for Exploratory Defect Discovery**
 <br> Yifei Gao, Jiang Wu, Xiaoyi Chen, Yifan Yang, Zhe Cui, Tianyi Ma, <u><strong>Jiaming Zhang</strong></u>, Jitao Sang
-<br> ``ACL Findings 2026``
+<br> ``ACL Findings 2026`` &nbsp; <a href="https://arxiv.org/pdf/2601.04500">[Paper]</a>
 
 <div style="margin-bottom: 15px;"></div>
 
