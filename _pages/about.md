@@ -208,8 +208,8 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 <span class='anchor' id='services'></span>
 # 🌟 Academic Services
 
-- **Journal Reviewer:** TPAMI, TIP, TMLR, TCSVT, TIST
-- **Conference PC Member:** NeurIPS, ICLR, ICML, CVPR, ICCV, ECCV, ACM MM, AAAI, IJCAI
+- **Journal Reviewer:** TPAMI, TIP, TAI, TMLR, TCSVT, TIST
+- **Conference PC Member:** NeurIPS, ICLR, ICML, CVPR, ICCV, ECCV, ACL, EMNLP, ACM MM, AAAI, IJCAI
 
 <br>
 <div style="width: 200px; margin: 0 auto;">
