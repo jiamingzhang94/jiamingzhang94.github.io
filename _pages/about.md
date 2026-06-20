@@ -32,6 +32,7 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 <span class='anchor' id='news'></span>
 # 🔥 News
 
+- *2026.06*: One paper is accepted by **ECCV 2026**.
 - *2026.05*: Four papers are accepted by **ICML 2026**.
 - *2026.04*: One paper is accepted by **ACL Findings 2026**.
 - *2026.01*: One paper is accepted by **ICLR 2026**.
@@ -51,6 +52,12 @@ My research focuses on **Trustworthy AI**, with particular interests in **advers
 <div style="margin-bottom: 15px;"></div>
 
 ## 2026
+
+**DualTAP: A Dual-Task Adversarial Protector for Mobile MLLM Agents**
+<br> Fuyao Zhang, <u><strong>Jiaming Zhang*</strong></u>, Che Wang, Xiongtao Sun, Yurong Hao, Guowei Guan, Wenjie Li, Longtao Huang, Wei Yang Bryan Lim
+<br> ``ECCV 2026`` &nbsp; <a href="https://arxiv.org/pdf/2511.13248">[Paper]</a> &nbsp; <a href="https://fyzhang1.github.io/DualTAP">[Project Page]</a>
+
+<div style="margin-bottom: 15px;"></div>
 
 **XDomainBench: Diagnosing Reasoning Collapse in High-Dimensional Scientific Knowledge Composition**
 <br> Gong Zhiren, Tiantong Wu, <u><strong>Jiaming Zhang*</strong></u>, Fuyao Zhang, Che Wang, Yurong Hao, Yikun Hou, Foo Ping, Yilei Zhao, Fei Huang, Chau Yuen, Wei Yang Bryan Lim*
